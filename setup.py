@@ -112,8 +112,8 @@ def build_cron(frequency_idx: int, utc_hour: int) -> str:
 
 # ── File updaters ──────────────────────────────────────────────────────────────
 
-def update_config(topics: list[str], authors: list[str], max_papers: int):
-    """Overwrite TOPIC_KEYWORDS, AUTHOR_NAMES, and MAX_DIGEST_PAPERS in config.py."""
+def update_config(topics: list[str], authors: list[str], max_papers: int, lookback_days: int):
+    """Overwrite TOPIC_KEYWORDS, AUTHOR_NAMES, MAX_DIGEST_PAPERS, and LOOKBACK_DAYS in config.py."""
     config_path = os.path.join(os.path.dirname(__file__), "config.py")
     with open(config_path, "r") as f:
         src = f.read()
@@ -145,6 +145,13 @@ def update_config(topics: list[str], authors: list[str], max_papers: int):
     src = re.sub(
         r"(MAX_DIGEST_PAPERS\s*=\s*)\d+",
         rf"\g<1>{max_papers}",
+        src,
+    )
+
+    # Replace LOOKBACK_DAYS
+    src = re.sub(
+        r"(LOOKBACK_DAYS\s*=\s*)\d+",
+        rf"\g<1>{lookback_days}",
         src,
     )
 
@@ -251,14 +258,16 @@ def main():
         print("  That doesn't look like a valid email address.")
     print()
 
-    # ── Build cron ────────────────────────────────────────────────────────────
+    # ── Build cron and lookback ──────────────────────────────────────────────
     cron_expr = build_cron(freq_idx, utc_hour)
+    FREQ_TO_LOOKBACK = {0: 1, 1: 3, 2: 7}  # daily=1, every-3-days=3, weekly=7
+    lookback_days = FREQ_TO_LOOKBACK[freq_idx]
 
     # ── Write files ───────────────────────────────────────────────────────────
     divider()
     print(bold("Saving configuration…"))
     try:
-        update_config(topics, authors, max_papers)
+        update_config(topics, authors, max_papers, lookback_days)
         print(f"  {green('✓')} config.py updated")
     except Exception as e:
         print(f"  ✗ Failed to update config.py: {e}")
@@ -277,6 +286,7 @@ def main():
     print(f"  {'Topics:':<22} {', '.join(topics)}")
     print(f"  {'Authors:':<22} {', '.join(authors) if authors else '(none)'}")
     print(f"  {'Max papers:':<22} {max_papers}")
+    print(f"  {'Lookback:':<22} {lookback_days} day{'s' if lookback_days > 1 else ''}")
     print(f"  {'Frequency:':<22} {FREQ_OPTIONS[freq_idx]}")
     print(f"  {'Timezone:':<22} {tz_label.strip()}")
     print(f"  {'Send time:':<22} 08:00 local  (UTC {utc_hour:02d}:00)")

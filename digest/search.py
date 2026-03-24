@@ -1,14 +1,18 @@
-"""Fetch recent papers from arXiv and PubMed."""
+"""Fetch recent papers from arXiv, PubMed, and ChemRxiv."""
 
 import re
 import time
 import urllib.parse
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
-from config import ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, AUTHOR_NAMES, PUBMED_MAX_RESULTS, TOPIC_KEYWORDS
+from config import (
+    ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, AUTHOR_NAMES,
+    CHEMRXIV_CATEGORY_IDS, CHEMRXIV_MAX_RESULTS,
+    LOOKBACK_DAYS, PUBMED_MAX_RESULTS, TOPIC_KEYWORDS,
+)
 
 # ------------------------------------------------------------------
 # Helpers
@@ -37,7 +41,7 @@ def _build_arxiv_query() -> str:
 
 
 def fetch_arxiv_papers() -> list[dict]:
-    """Return papers from arXiv published in the last 24 hours."""
+    """Return papers from arXiv published within the lookback window."""
     query = _build_arxiv_query()
     params = {
         "search_query": query,
@@ -56,12 +60,22 @@ def fetch_arxiv_papers() -> list[dict]:
     }
     root = ET.fromstring(resp.text)
     papers = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
 
     for entry in root.findall("atom:entry", ns):
         title = entry.findtext("atom:title", "", ns).replace("\n", " ").strip()
         abstract = entry.findtext("atom:summary", "", ns).replace("\n", " ").strip()
         published_str = entry.findtext("atom:published", "", ns)
         arxiv_id_raw = entry.findtext("atom:id", "", ns)
+
+        # Filter out papers older than the lookback window
+        if published_str:
+            try:
+                pub_dt = datetime.fromisoformat(published_str.replace("Z", "+00:00"))
+                if pub_dt < cutoff:
+                    continue
+            except ValueError:
+                pass  # keep papers with unparseable dates
 
         # Extract clean arXiv ID (e.g. "2403.12345")
         arxiv_id_match = re.search(r"abs/([^\s]+)$", arxiv_id_raw or "")
@@ -100,7 +114,7 @@ def _build_pubmed_query() -> str:
 
 
 def fetch_pubmed_papers() -> list[dict]:
-    """Return papers from PubMed published in the last 1 day."""
+    """Return papers from PubMed published within the lookback window."""
     query = _build_pubmed_query()
 
     # Step 1: esearch — get PMIDs
@@ -108,7 +122,7 @@ def fetch_pubmed_papers() -> list[dict]:
         "db": "pubmed",
         "term": query,
         "retmax": PUBMED_MAX_RESULTS,
-        "reldate": 1,
+        "reldate": LOOKBACK_DAYS,
         "datetype": "pdat",
         "retmode": "json",
     }
@@ -183,11 +197,72 @@ def fetch_pubmed_papers() -> list[dict]:
 
 
 # ------------------------------------------------------------------
+# ChemRxiv
+# ------------------------------------------------------------------
+
+CHEMRXIV_API = "https://chemrxiv.org/engage/chemrxiv/public-api/v1/items"
+
+def fetch_chemrxiv_papers() -> list[dict]:
+    """Return papers from ChemRxiv published within the lookback window."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
+    date_from = cutoff.strftime("%Y-%m-%dT00:00:00.000Z")
+
+    query_parts = [
+        f"limit={CHEMRXIV_MAX_RESULTS}",
+        "skip=0",
+        "sort=PUBLISHED_DATE_DESC",
+        f"searchDateFrom={date_from}",
+    ]
+    for cat_id in CHEMRXIV_CATEGORY_IDS:
+        query_parts.append(f"categoryIds={cat_id}")
+
+    url = f"{CHEMRXIV_API}?{'&'.join(query_parts)}"
+    headers = {"User-Agent": "paper-miner/1.0 (research digest bot)"}
+    resp = requests.get(url, headers=headers, timeout=30)
+    if resp.status_code == 403:
+        print("  ChemRxiv: blocked by Cloudflare (may work from GitHub Actions)")
+        return []
+    resp.raise_for_status()
+
+    data = resp.json()
+    items = data.get("itemHits", [])
+    papers = []
+
+    for hit in items:
+        item = hit.get("item", hit)
+        title = item.get("title", "")
+        abstract = item.get("abstract", "")
+        item_id = item.get("id", "")
+        doi = item.get("doi", "")
+        published = item.get("statusDate", "")
+
+        authors = []
+        for a in item.get("authors", []):
+            first = a.get("firstName", "")
+            last = a.get("lastName", "")
+            if last:
+                authors.append(f"{first} {last}".strip())
+
+        papers.append({
+            "id": f"chemrxiv:{doi or item_id}",
+            "title": title,
+            "authors": authors,
+            "abstract": abstract,
+            "published": published,
+            "source": "ChemRxiv",
+            "url": f"https://chemrxiv.org/engage/chemrxiv/article-details/{item_id}",
+            "_norm_title": _normalize_title(title),
+        })
+
+    return papers
+
+
+# ------------------------------------------------------------------
 # Combined search with cross-source deduplication
 # ------------------------------------------------------------------
 
 def fetch_all_papers() -> list[dict]:
-    """Fetch from arXiv and PubMed, deduplicate by normalized title."""
+    """Fetch from arXiv, PubMed, and ChemRxiv, deduplicate by normalized title."""
     print("Fetching from arXiv...")
     arxiv_papers = fetch_arxiv_papers()
     print(f"  arXiv: {len(arxiv_papers)} papers")
@@ -196,10 +271,14 @@ def fetch_all_papers() -> list[dict]:
     pubmed_papers = fetch_pubmed_papers()
     print(f"  PubMed: {len(pubmed_papers)} papers")
 
+    print("Fetching from ChemRxiv...")
+    chemrxiv_papers = fetch_chemrxiv_papers()
+    print(f"  ChemRxiv: {len(chemrxiv_papers)} papers")
+
     # Deduplicate across sources by normalized title
     seen_titles: set[str] = set()
     combined: list[dict] = []
-    for p in arxiv_papers + pubmed_papers:
+    for p in arxiv_papers + pubmed_papers + chemrxiv_papers:
         nt = p["_norm_title"]
         if nt and nt not in seen_titles:
             seen_titles.add(nt)
