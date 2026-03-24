@@ -2,7 +2,7 @@ name: Daily Paper Digest
 
 on:
   schedule:
-    - cron: '0 15 * * *'  # 00:00 UTC = 08:00 Beijing time
+    - cron: '0 16 */3 * *'  # 00:00 UTC = 08:00 Beijing time
   workflow_dispatch:      # Allow manual trigger from GitHub UI
 
 jobs:
