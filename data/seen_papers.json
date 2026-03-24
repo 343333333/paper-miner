@@ -1,1 +1,139 @@
-{"papers": []}
+{
+  "papers": [
+    {
+      "id": "arxiv:2603.15904v1",
+      "title": "Condensate-mediated shape transformations of cellular membranes by capillary forces",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.20064v1",
+      "title": "Edge Currents Shape Condensates in Chiral Active Matter",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.17690v1",
+      "title": "Non-equilibrium phase coexistence in conserved chemically active mixtures",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.17608v1",
+      "title": "Local composition controls pattern formation in conserved active emulsions",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.22977v1",
+      "title": "Coupling between Phase Separation and Geometry on a Closed Elastic Curve: Free Energy Minimization and Dynamics",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.08300v1",
+      "title": "A thermodynamic metric quantitatively predicts disordered protein partitioning and multicomponent phase behavior",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.10287v1",
+      "title": "What is active wetting?",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.04999v1",
+      "title": "Metastability and ripening of multi-component liquid mixtures",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.03677v1",
+      "title": "Roadmap for Condensates in Cell Biology",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.03221v2",
+      "title": "Bicontinuity in active phase separation",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.11450v1",
+      "title": "Principles of Client Enrichment in Multicomponent Biomolecular Condensates",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.06754v1",
+      "title": "Wetting-coupled phase separation as an energetic mechanism for active bacterial adhesion",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.16539v1",
+      "title": "Active Cahn--Hilliard theory for non-equilibrium phase separation: quantitative macroscopic predictions and a microscopic derivation",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2512.16150v1",
+      "title": "Predicting the Interfacial Energy and Morphology of DNA Condensates",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.15778v1",
+      "title": "Biomedical active matter: Emergence and breakdown of collective functionalities",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.12534v1",
+      "title": "Polymer-Residue Accessibility Shapes Sequence Dependence of Critical Temperatures for Phase Separation",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.15001v1",
+      "title": "Self-organized flows break morphological symmetry in active/passive systems",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2601.01469v1",
+      "title": "Association and phase transitions in simple models for biological and soft matter condensates",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.12124v1",
+      "title": "Arrested coalescence drives helical coiling and networking of filamentous smectic condensates",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.13337v1",
+      "title": "StrAPS: Structural Angular Power Spectrum for Discovering Novel Morphologies in Block Copolymers",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.05153v1",
+      "title": "Scaling Law for Sequence-Induced Demixing of Compositionally Identical Copolymers",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.11101v1",
+      "title": "Spontaneous phase separation and pattern formation in a lyotropic nematic mixture",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2512.24781v1",
+      "title": "Non-equilibrium pathways between cluster morphologies in active phase separation: necking, rupture and cavitation",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2512.24761v1",
+      "title": "Mobility-induced phase separation in a binary mixture of active Brownian particles",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2602.14400v1",
+      "title": "Programming active-molecule dynamics via intramolecular nonreciprocity",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2512.23123v1",
+      "title": "Understanding the mechanisms of supported lipid membrane reshaping into tubular networks using quantitative DIC microscopy",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2512.16405v1",
+      "title": "A single-chain nanoparticle-based mean-field theory for associative polymers",
+      "sent_date": "2026-03-24"
+    }
+  ]
+}
