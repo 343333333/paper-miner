@@ -270,14 +270,10 @@ def fetch_chemrxiv_papers() -> list[dict]:
 # ------------------------------------------------------------------
 
 def fetch_all_papers() -> list[dict]:
-    """Fetch from arXiv, PubMed, and ChemRxiv, deduplicate by normalized title."""
+    """Fetch from arXiv and ChemRxiv, deduplicate by normalized title."""
     print("Fetching from arXiv...")
     arxiv_papers = fetch_arxiv_papers()
     print(f"  arXiv: {len(arxiv_papers)} papers")
-
-    print("Fetching from PubMed...")
-    pubmed_papers = fetch_pubmed_papers()
-    print(f"  PubMed: {len(pubmed_papers)} papers")
 
     print("Fetching from ChemRxiv...")
     chemrxiv_papers = fetch_chemrxiv_papers()
@@ -286,7 +282,7 @@ def fetch_all_papers() -> list[dict]:
     # Deduplicate across sources by normalized title
     seen_titles: set[str] = set()
     combined: list[dict] = []
-    for p in arxiv_papers + pubmed_papers + chemrxiv_papers:
+    for p in arxiv_papers + chemrxiv_papers:
         nt = p["_norm_title"]
         if nt and nt not in seen_titles:
             seen_titles.add(nt)
