@@ -1,0 +1,31 @@
+name: Daily Paper Digest
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 00:00 UTC = 08:00 Beijing time
+  workflow_dispatch:      # Allow manual trigger from GitHub UI
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write     # Needed to commit seen_papers.json back to repo
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python main.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+      - name: Save seen papers
+        run: |
+          git config user.name "paper-digest-bot"
+          git config user.email "bot@github-actions"
+          git add data/seen_papers.json
+          git diff --staged --quiet || git commit -m "Update seen papers [skip ci]"
+          git push
