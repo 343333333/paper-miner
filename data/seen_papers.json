@@ -169,6 +169,106 @@
       "id": "chemrxiv:10.26434/chemrxiv.15001135/v1",
       "title": "Fully coupled mechano-electrochemical modeling of 3D-resolved microstructures for solid state batteries manufactured by wet processing",
       "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2025-tt68b/v2",
+      "title": "GPU-Accelerated Analytic Coulomb- and Exchange Gradients for Hartree Fock and Density Functional Theory",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001161/v1",
+      "title": "UMA-ASE: A FAIR-Aware Environment for Machine-Learned Interatomic Potential Workflows with UMA and ASE",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.21942v1",
+      "title": "Suiren-1.0 Technical Report: A Family of Molecular Foundation Models",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001152/v1",
+      "title": "Machine Learning Interatomic Potential Calculations for Designing Layered Oxides in Sodium-ion Battery Systems with Low Environmental Impacts",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.21906v1",
+      "title": "olLOSC: Unified and efficient density functional approximation to correct delocalization error in molecules and periodic materials",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.22254v1",
+      "title": "Characterizing High-Capacity Janus Aminobenzene-Graphene Anode for Sodium-Ion Batteries with Machine Learning",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2025-7s3gx/v2",
+      "title": "Taming T-REX: A Canonical Language for Geometry-Aware Generative Design of Transition-Metal Complexes",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.10001857/v2",
+      "title": "Development of local natural orbital arbitrary order coupled cluster methods and assessment through connected quadruples",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.22140v1",
+      "title": "Stable, Fast, and Accurate Kohn-Sham Inversion in Gaussian Basis for Open Shell Molecular and Condensed Phase Systems via Density Matrix Penalization",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001138/v1",
+      "title": "FrictionSim2D: A High-Throughput Molecular Simulation Framework to Screen the Friction of Two-Dimensional Materials",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.10001593/v2",
+      "title": "Structure-Spectra Relationships of Carbonate Defects in Hydroxyapatite Revealed by First-Principles Infrared Spectroscopy",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000030/v2",
+      "title": "Benchmark assessment of collinear, mixed-reference, and spin-adapted variants of spin-flip time-dependent density functional theory, for closed-and open-shell molecules",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001147/v1",
+      "title": "Calibration dependencies for aluminum organic compounds and mechanism of their thermal decomposition",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001127/v1",
+      "title": "Minimizing Data Requirements for Material Property Prediction via Cluster-based Training Set Selection",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001131/v1",
+      "title": "Assessing the Potential of Zero Charge in Ab Initio Molecular Dynamics Simulations",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001159/v1",
+      "title": "High-Throughput Discovery of Conformation-Switching Mechanophores with Novel Response and Enhanced Reactivity",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001156/v1",
+      "title": "Demonstration of Real-Time Autonomous Metal Additive Manufacturing",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001143/v1",
+      "title": "A Modular Web Platform for Porphyrin Molecular Design and UV-Vis-NIR Spectral Prediction in the Photosciences",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001150/v1",
+      "title": "PepOpt: An interpretable machine learning framework for peptide lead optimization in ultralarge design spaces",
+      "sent_date": "2026-03-24"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001132/v1",
+      "title": "Mg2+ Catalyzes Nonenzymatic RNA Primer Extension through a Concerted Outer-Sphere Mechanism",
+      "sent_date": "2026-03-24"
     }
   ]
 }
