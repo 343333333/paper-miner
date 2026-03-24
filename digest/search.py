@@ -10,7 +10,6 @@ import requests
 
 from config import (
     ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, AUTHOR_NAMES,
-    CHEMRXIV_CATEGORY_IDS, CHEMRXIV_MAX_RESULTS,
     LOOKBACK_DAYS, PUBMED_MAX_RESULTS, TOPIC_KEYWORDS,
 )
 
@@ -197,62 +196,71 @@ def fetch_pubmed_papers() -> list[dict]:
 
 
 # ------------------------------------------------------------------
-# ChemRxiv
+# ChemRxiv (via OpenAlex — ChemRxiv's own API is behind Cloudflare)
 # ------------------------------------------------------------------
 
-CHEMRXIV_API = "https://chemrxiv.org/engage/chemrxiv/public-api/v1/items"
+OPENALEX_API = "https://api.openalex.org/works"
 
 def fetch_chemrxiv_papers() -> list[dict]:
-    """Return papers from ChemRxiv published within the lookback window."""
+    """Return ChemRxiv preprints published within the lookback window via OpenAlex."""
     cutoff = datetime.now(timezone.utc) - timedelta(days=LOOKBACK_DAYS)
-    date_from = cutoff.strftime("%Y-%m-%dT00:00:00.000Z")
+    date_from = cutoff.strftime("%Y-%m-%d")
 
-    query_parts = [
-        f"limit={CHEMRXIV_MAX_RESULTS}",
-        "skip=0",
-        "sort=PUBLISHED_DATE_DESC",
-        f"searchDateFrom={date_from}",
-    ]
-    for cat_id in CHEMRXIV_CATEGORY_IDS:
-        query_parts.append(f"categoryIds={cat_id}")
-
-    url = f"{CHEMRXIV_API}?{'&'.join(query_parts)}"
-    headers = {"User-Agent": "paper-miner/1.0 (research digest bot)"}
-    resp = requests.get(url, headers=headers, timeout=30)
-    if resp.status_code == 403:
-        print("  ChemRxiv: blocked by Cloudflare (may work from GitHub Actions)")
-        return []
-    resp.raise_for_status()
-
-    data = resp.json()
-    items = data.get("itemHits", [])
     papers = []
+    page = 1
+    per_page = 50
+    while True:
+        params = {
+            "filter": f"doi_starts_with:10.26434/chemrxiv,from_publication_date:{date_from}",
+            "per_page": per_page,
+            "page": page,
+            "sort": "publication_date:desc",
+            "mailto": "paper-miner@users.noreply.github.com",
+        }
+        resp = requests.get(OPENALEX_API, params=params, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        results = data.get("results", [])
 
-    for hit in items:
-        item = hit.get("item", hit)
-        title = item.get("title", "")
-        abstract = item.get("abstract", "")
-        item_id = item.get("id", "")
-        doi = item.get("doi", "")
-        published = item.get("statusDate", "")
+        for item in results:
+            title = item.get("title", "") or ""
+            doi = item.get("doi", "")
+            openalex_id = item.get("id", "")
+            published = item.get("publication_date", "")
 
-        authors = []
-        for a in item.get("authors", []):
-            first = a.get("firstName", "")
-            last = a.get("lastName", "")
-            if last:
-                authors.append(f"{first} {last}".strip())
+            # Get abstract from inverted index
+            abstract = ""
+            inv_index = item.get("abstract_inverted_index")
+            if inv_index:
+                word_positions = []
+                for word, positions in inv_index.items():
+                    for pos in positions:
+                        word_positions.append((pos, word))
+                word_positions.sort()
+                abstract = " ".join(w for _, w in word_positions)
 
-        papers.append({
-            "id": f"chemrxiv:{doi or item_id}",
-            "title": title,
-            "authors": authors,
-            "abstract": abstract,
-            "published": published,
-            "source": "ChemRxiv",
-            "url": f"https://chemrxiv.org/engage/chemrxiv/article-details/{item_id}",
-            "_norm_title": _normalize_title(title),
-        })
+            authors = [
+                a.get("author", {}).get("display_name", "")
+                for a in item.get("authorships", [])
+                if a.get("author", {}).get("display_name")
+            ]
+
+            paper_id = doi.replace("https://doi.org/", "") if doi else openalex_id
+            papers.append({
+                "id": f"chemrxiv:{paper_id}",
+                "title": title,
+                "authors": authors,
+                "abstract": abstract,
+                "published": published,
+                "source": "ChemRxiv",
+                "url": doi or openalex_id,
+                "_norm_title": _normalize_title(title),
+            })
+
+        if len(results) < per_page:
+            break
+        page += 1
+        time.sleep(0.2)  # be polite to OpenAlex
 
     return papers
 
