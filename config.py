@@ -19,11 +19,13 @@ TOPIC_KEYWORDS = [
     "universal interatomic potential",
     "FAIR atomistic simulation",
     "equivariant neural network potential",
+]
 
-    # Cluster C - Key researchers
+# Author names — searched in the author field (not abstract)
+AUTHOR_NAMES = [
     "Ilyes Batatia",
-    "Mingyuan Zhang"
-)
+    "Mingyuan Zhang",
+]
 
 # Scoring
 SCORE_THRESHOLD = 7          # Papers below this are discarded

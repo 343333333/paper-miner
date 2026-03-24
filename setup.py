@@ -112,8 +112,8 @@ def build_cron(frequency_idx: int, utc_hour: int) -> str:
 
 # ── File updaters ──────────────────────────────────────────────────────────────
 
-def update_config(topics: list[str], max_papers: int):
-    """Overwrite TOPIC_KEYWORDS and MAX_DIGEST_PAPERS in config.py."""
+def update_config(topics: list[str], authors: list[str], max_papers: int):
+    """Overwrite TOPIC_KEYWORDS, AUTHOR_NAMES, and MAX_DIGEST_PAPERS in config.py."""
     config_path = os.path.join(os.path.dirname(__file__), "config.py")
     with open(config_path, "r") as f:
         src = f.read()
@@ -124,6 +124,19 @@ def update_config(topics: list[str], max_papers: int):
     src = re.sub(
         r"TOPIC_KEYWORDS\s*=\s*\[.*?\]",
         new_block,
+        src,
+        flags=re.DOTALL,
+    )
+
+    # Replace AUTHOR_NAMES list
+    if authors:
+        authors_lines = ",\n    ".join(f'"{a}"' for a in authors)
+        new_authors = f"AUTHOR_NAMES = [\n    {authors_lines},\n]"
+    else:
+        new_authors = "AUTHOR_NAMES = []"
+    src = re.sub(
+        r"AUTHOR_NAMES\s*=\s*\[.*?\]",
+        new_authors,
         src,
         flags=re.DOTALL,
     )
@@ -186,22 +199,40 @@ def main():
         topics.append(line)
     print()
 
-    # ── 2. Max papers per digest ──────────────────────────────────────────────
+    # ── 2. Author names ──────────────────────────────────────────────────────
     divider()
-    print(bold("Step 2 — Maximum papers per digest"))
+    print(bold("Step 2 — Researchers to follow"))
+    print(dim("Enter author names one per line. Empty line when done."))
+    print(dim("Papers by these authors will be found via the author field."))
+    print()
+    authors = []
+    while True:
+        try:
+            line = input(f"  Author {len(authors)+1}: ").strip()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            sys.exit(0)
+        if not line:
+            break
+        authors.append(line)
+    print()
+
+    # ── 3. Max papers per digest ──────────────────────────────────────────────
+    divider()
+    print(bold("Step 3 — Maximum papers per digest"))
     max_papers = ask_int("  How many papers max per digest", default=8, lo=1, hi=50)
     print()
 
-    # ── 3. Delivery frequency ─────────────────────────────────────────────────
+    # ── 4. Delivery frequency ─────────────────────────────────────────────────
     divider()
-    print(bold("Step 3 — Delivery frequency"))
+    print(bold("Step 4 — Delivery frequency"))
     FREQ_OPTIONS = ["Every day", "Every 3 days", "Weekly (Mondays)"]
     freq_idx = ask_choice("  Choose a frequency", FREQ_OPTIONS)
     print()
 
-    # ── 4. Timezone ───────────────────────────────────────────────────────────
+    # ── 5. Timezone ───────────────────────────────────────────────────────────
     divider()
-    print(bold("Step 4 — Timezone"))
+    print(bold("Step 5 — Timezone"))
     print(dim("  Digest will be delivered at 08:00 your local time."))
     print()
     tz_labels = [label for label, _ in TIMEZONES]
@@ -210,9 +241,9 @@ def main():
     utc_hour = utc_hour_for_8am(utc_offset)
     print()
 
-    # ── 5. Recipient email ────────────────────────────────────────────────────
+    # ── 6. Recipient email ────────────────────────────────────────────────────
     divider()
-    print(bold("Step 5 — Recipient email"))
+    print(bold("Step 6 — Recipient email"))
     while True:
         email = ask("  Your email address")
         if "@" in email and "." in email.split("@")[-1]:
@@ -227,7 +258,7 @@ def main():
     divider()
     print(bold("Saving configuration…"))
     try:
-        update_config(topics, max_papers)
+        update_config(topics, authors, max_papers)
         print(f"  {green('✓')} config.py updated")
     except Exception as e:
         print(f"  ✗ Failed to update config.py: {e}")
@@ -244,6 +275,7 @@ def main():
     print(bold("Summary"))
     print()
     print(f"  {'Topics:':<22} {', '.join(topics)}")
+    print(f"  {'Authors:':<22} {', '.join(authors) if authors else '(none)'}")
     print(f"  {'Max papers:':<22} {max_papers}")
     print(f"  {'Frequency:':<22} {FREQ_OPTIONS[freq_idx]}")
     print(f"  {'Timezone:':<22} {tz_label.strip()}")

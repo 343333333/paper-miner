@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from config import ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, PUBMED_MAX_RESULTS, TOPIC_KEYWORDS
+from config import ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, AUTHOR_NAMES, PUBMED_MAX_RESULTS, TOPIC_KEYWORDS
 
 # ------------------------------------------------------------------
 # Helpers
@@ -26,12 +26,14 @@ def _normalize_title(title: str) -> str:
 ARXIV_API = "http://export.arxiv.org/api/query"
 
 def _build_arxiv_query() -> str:
-    """Build arXiv query string combining categories and keywords."""
+    """Build arXiv query string combining categories, keywords, and authors."""
     cat_query = " OR ".join(f"cat:{c}" for c in ARXIV_CATEGORIES)
     # Pick a representative subset to keep the URL manageable
     kw_subset = TOPIC_KEYWORDS[:20]
-    kw_query = " OR ".join(f'abs:"{kw}"' for kw in kw_subset)
-    return f"({cat_query}) AND ({kw_query})"
+    kw_parts = [f'abs:"{kw}"' for kw in kw_subset]
+    au_parts = [f'au:"{name}"' for name in AUTHOR_NAMES]
+    match_query = " OR ".join(kw_parts + au_parts)
+    return f"({cat_query}) AND ({match_query})"
 
 
 def fetch_arxiv_papers() -> list[dict]:
@@ -91,9 +93,10 @@ def fetch_arxiv_papers() -> list[dict]:
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 def _build_pubmed_query() -> str:
-    """Build PubMed search query from topic keywords."""
-    terms = " OR ".join(f'"{kw}"[Title/Abstract]' for kw in TOPIC_KEYWORDS[:15])
-    return terms
+    """Build PubMed search query from topic keywords and author names."""
+    kw_terms = [f'"{kw}"[Title/Abstract]' for kw in TOPIC_KEYWORDS[:15]]
+    au_terms = [f'"{name}"[Author]' for name in AUTHOR_NAMES]
+    return " OR ".join(kw_terms + au_terms)
 
 
 def fetch_pubmed_papers() -> list[dict]:
