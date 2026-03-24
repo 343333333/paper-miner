@@ -5,24 +5,13 @@ ARXIV_CATEGORIES = ["q-bio.SC", "q-bio.CB", "physics.bio-ph", "cond-mat.soft"]
 
 # Topic keywords used to build search queries
 TOPIC_KEYWORDS = [
-    # Cluster A - Biological systems
-    "COPII vesicle", "ER transport", "ER-to-Golgi", "secretory pathway",
-    "cargo sorting", "membrane curvature",
-    "ER-mitochondria", "MAM", "mitochondria-associated membrane",
-    "MFN2", "VDAC", "IP3R", "lipid transfer", "calcium signaling",
-    "organelle contact site", "organelle tethering",
-    "biomolecular condensate", "phase separation", "liquid-liquid phase separation",
-    "LLPS", "transcriptional condensate", "protein-DNA condensate",
-    "coarsening dynamics",
-    # Cluster B - Theoretical methods
-    "phase-field", "Cahn-Hilliard", "Model B dynamics", "Flory-Huggins",
-    "chemical potential", "field-theoretic",
-    "reaction-diffusion", "Turing instability", "pattern formation",
-    "activator-inhibitor", "morphogenesis", "Min protein",
-    "active matter", "nonequilibrium", "Onsager", "entropy production",
-    "fluctuation theorem", "active noise",
-    # Cluster C - Key researchers
-    "Erwin Frey", "Nigel Goldenfeld",
+    "machine learning potential in chemistry",
+    "force field development for biochemical simulation",
+    "machine learning potential(MACE UMA) in benchmark of polypeptide or protein simulation",
+    "polarizable electrostatic foundation model",
+    "biomolecular simulation structural validation",
+    "equivariant graph neural network molecular dynamics",
+    "machine learning interatomic potential transferability",
 ]
 
 # Scoring
