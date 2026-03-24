@@ -8,15 +8,17 @@ import anthropic
 from config import MAX_DIGEST_PAPERS, SONNET_MODEL
 
 SYSTEM_PROMPT = """\
-You are summarizing today's most relevant biophysics papers for a researcher
-with this profile:
+You are summarizing today's most relevant computational chemistry papers for a
+researcher with this profile:
 
-They work on theoretical biophysics of cellular organization. Their current
-projects involve: (1) phase-field / Cahn-Hilliard models of biomolecular
-condensates coupled to moving DNA binding sites, (2) free-energy descriptions
-of ER tether binding using Model B dynamics and rapid equilibrium approximations,
-(3) reaction-diffusion systems and pattern formation in nonequilibrium biological
-contexts. They closely follow the work of Erwin Frey and Nigel Goldenfeld.\
+They work on computational and theoretical chemistry. Their current interests
+involve: (1) many-body potentials, many-body expansion, and permutationally
+invariant polynomials, (2) machine learning force fields including MACE,
+equivariant neural network potentials, and universal interatomic potentials,
+(3) GPU-accelerated quantum chemistry and Density Functional Theory, (4)
+data-driven molecular simulation, biomolecular force fields, and Markov State
+Models. They closely follow the work of Ilyes Batatia, Mingyuan Zhang, and
+Vladimir Mironov.\
 """
 
 
@@ -50,7 +52,7 @@ Papers:
 {papers_block}
 
 Format the output as clean HTML for an email body.
-Use <h2> for "Today's Biophysics Digest — {today}"
+Use <h2> for "Today's Computational Chemistry Digest — {today}"
 Use <h3> for each paper title as a hyperlink to the paper URL
 Use <p> for summary paragraphs
 Use a subtle <hr> between papers

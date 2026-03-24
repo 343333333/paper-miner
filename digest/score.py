@@ -10,21 +10,25 @@ import anthropic
 from config import HAIKU_MODEL, SCORE_THRESHOLD
 
 SYSTEM_PROMPT = """\
-You are assisting a theoretical biophysics researcher. Score this paper's
-relevance to their work. They study:
+You are assisting a computational/theoretical chemistry researcher. Score this
+paper's relevance to their work. Their interests include:
 
-BIOLOGICAL SYSTEMS:
-- ER transport, COPII vesicle budding, ER-to-Golgi trafficking
-- ER-mitochondria contact sites (MAM, tethering, calcium signaling)
-- Biomolecular condensates, liquid-liquid phase separation, protein-DNA
-  interactions driving condensate formation
+MANY-BODY AND DATA-DRIVEN POTENTIALS:
+- Many-body potentials and many-body expansion methods
+- Permutationally invariant polynomials (PIP)
+- Biomolecular force fields, intramolecular fragmentation
 
-THEORETICAL METHODS they use and follow:
-- Phase-field models (Cahn-Hilliard, Model B, Flory-Huggins free energy)
-- Reaction-diffusion systems (Turing patterns, activator-inhibitor models)
-- Nonequilibrium and active systems, Onsager formalism
+MACHINE LEARNING FORCE FIELDS:
+- MACE, equivariant neural network potentials
+- Universal interatomic potentials (FAIR, etc.)
+- CCSD(T)-level machine learning potentials
+- Data-driven molecular simulation
 
-KEY RESEARCHERS whose work is always relevant: Erwin Frey, Nigel Goldenfeld.\
+ELECTRONIC STRUCTURE AND QUANTUM CHEMISTRY:
+- Density Functional Theory (DFT), GPU-accelerated quantum chemistry
+- Tensorial models, Markov State Models
+
+KEY RESEARCHERS whose work is always relevant: Ilyes Batatia, Mingyuan Zhang, Vladimir Mironov.\
 """
 
 USER_TEMPLATE = """\
@@ -33,10 +37,10 @@ Abstract: {abstract}
 
 Return a JSON object with:
 - "score": integer 0–10
-- "topics": list of matched topic keywords (e.g. ["condensate", "Cahn-Hilliard"])
+- "topics": list of matched topic keywords (e.g. ["MACE", "DFT", "many-body potential"])
 - "reason": one sentence explaining the score
-- "dynamic_boundary": true if the paper involves concentration fields coupled
-  to moving or dynamic boundaries/membranes/DNA (add 2 bonus points to score)
+- "novel_method": true if the paper introduces a new ML potential, force field
+  methodology, or significant GPU/algorithmic acceleration for quantum chemistry
 
 Return only valid JSON. No markdown.\
 """
@@ -65,12 +69,12 @@ def _score_paper(client: anthropic.Anthropic, paper: dict) -> dict:
         result = {"score": 0, "topics": [], "reason": "scoring error", "dynamic_boundary": False}
 
     base_score = int(result.get("score", 0))
-    dynamic_boundary = bool(result.get("dynamic_boundary", False))
+    novel_method = bool(result.get("novel_method", False))
     topics = result.get("topics", [])
 
     # Apply bonuses
     bonus = 0
-    if dynamic_boundary:
+    if novel_method:
         bonus += 2
     if len(topics) >= 2:
         bonus += 2
@@ -82,7 +86,7 @@ def _score_paper(client: anthropic.Anthropic, paper: dict) -> dict:
         "base_score": base_score,
         "topics": topics,
         "reason": result.get("reason", ""),
-        "dynamic_boundary": dynamic_boundary,
+        "novel_method": novel_method,
     }
 
 
@@ -107,8 +111,14 @@ def score_papers(papers: list[dict]) -> list[dict]:
             for future in as_completed(futures):
                 scored.append(future.result())
 
-    # Filter and sort
+    # Print all scores for transparency
+    scored.sort(key=lambda p: p["score"], reverse=True)
+    for p in scored:
+        status = "✓" if p["score"] >= SCORE_THRESHOLD else "✗"
+        print(f"  {status} [{p['score']:2d}] {p['title'][:70]}")
+        print(f"         reason: {p.get('reason', '')}")
+
+    # Filter
     relevant = [p for p in scored if p["score"] >= SCORE_THRESHOLD]
-    relevant.sort(key=lambda p: p["score"], reverse=True)
     print(f"  {len(relevant)} papers scored >= {SCORE_THRESHOLD} (out of {len(scored)} scored)")
     return relevant
