@@ -10,27 +10,28 @@ TOPIC_KEYWORDS = [
     "biomolecular force field",
     "many-body expansion",
     "data-driven molecular simulation",
-    "Tensorial Model",
-    "Markov State Models",
     # Cluster B - Machine learning force fields
     "CCSD(T) machine learning",
-    "intramolecular fragmentation",
+    "molecular fragmentation",
     "MACE polarizable",
     "universal interatomic potential",
     "FAIR atomistic simulation",
-    "equivariant neural network potential",
-    "Density Functional Theory"
+    "GPU-accelerated simulation",
+    "Density Functional Theory",
+    # Cluster c - bio related
+    "biomolecular simulation structural validation"
 ]
 
 # Author names — searched in the author field (not abstract)
 AUTHOR_NAMES = [
     "Ilyes Batatia",
-    "Mingyuan Zhang",
-    "Vladimir Mironov",
+    "Bingqing Cheng",
+    "Mark E. Tuckerman",
+    "Michele Ceriotti"
 ]
 
 # Scoring
-SCORE_THRESHOLD = 4        # Papers below this are discarded
+SCORE_THRESHOLD = 7        # Papers below this are discarded
 MAX_DIGEST_PAPERS = 8        # Max papers sent in one digest
 
 # ChemRxiv categories (Physical Chemistry, Theoretical and Computational Chemistry)
