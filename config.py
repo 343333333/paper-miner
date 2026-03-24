@@ -1,18 +1,27 @@
 """Configuration: topics, scoring thresholds, search parameters."""
-
 # arXiv categories to search
-ARXIV_CATEGORIES = ["q-bio.SC", "q-bio.CB", "physics.bio-ph", "cond-mat.soft"]
+ARXIV_CATEGORIES = ["physics.chem-ph", "cond-mat.soft", "q-bio.BM", "cs.LG"]
 
 # Topic keywords used to build search queries
 TOPIC_KEYWORDS = [
-    "machine learning potential in chemistry",
-    "force field development for biochemical simulation",
-    "machine learning potential(MACE UMA) in benchmark of polypeptide or protein simulation",
-    "polarizable electrostatic foundation model",
-    "biomolecular simulation structural validation",
-    "equivariant graph neural network molecular dynamics",
-    "machine learning interatomic potential transferability",
-]
+    # Cluster A - Many-body and data-driven potentials
+    "many-body potential",
+    "permutationally invariant polynomial",
+    "biomolecular force field",
+    "many-body expansion",
+    "data-driven molecular simulation",
+
+    # Cluster B - Machine learning force fields
+    "CCSD(T) machine learning",
+    "intramolecular fragmentation",
+    "MACE polarizable",
+    "universal interatomic potential",
+    "FAIR atomistic simulation",
+    "equivariant neural network potential",
+
+    # Cluster C - Key researchers
+    "Ilyes Batatia",
+)
 
 # Scoring
 SCORE_THRESHOLD = 7          # Papers below this are discarded
