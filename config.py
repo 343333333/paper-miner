@@ -10,7 +10,7 @@ TOPIC_KEYWORDS = [
     "biomolecular force field",
     "many-body expansion",
     "data-driven molecular simulation",
-    "Tensorial Model"
+    "Tensorial Model",
     "Markov State Models",
     # Cluster B - Machine learning force fields
     "CCSD(T) machine learning",
