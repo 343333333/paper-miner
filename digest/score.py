@@ -16,19 +16,18 @@ paper's relevance to their work. Their interests include:
 MANY-BODY AND DATA-DRIVEN POTENTIALS:
 - Many-body potentials and many-body expansion methods
 - Permutationally invariant polynomials (PIP)
-- Biomolecular force fields, intramolecular fragmentation
+- Biomolecular force fields, data-driven molecular simulation
 
 MACHINE LEARNING FORCE FIELDS:
-- MACE, equivariant neural network potentials
-- Universal interatomic potentials (FAIR, etc.)
+- MACE, universal interatomic potentials (FAIR, etc.)
 - CCSD(T)-level machine learning potentials
-- Data-driven molecular simulation
+- Molecular fragmentation methods
 
-ELECTRONIC STRUCTURE AND QUANTUM CHEMISTRY:
-- Density Functional Theory (DFT), GPU-accelerated quantum chemistry
-- Tensorial models, Markov State Models
+ELECTRONIC STRUCTURE AND SIMULATION:
+- Density Functional Theory (DFT), GPU-accelerated simulation
+- Biomolecular simulation structural validation
 
-KEY RESEARCHERS whose work is always relevant: Ilyes Batatia, Mingyuan Zhang, Vladimir Mironov.\
+KEY RESEARCHERS whose work is always relevant: Ilyes Batatia, Bingqing Cheng, Mark E. Tuckerman, Michele Ceriotti.\
 """
 
 USER_TEMPLATE = """\

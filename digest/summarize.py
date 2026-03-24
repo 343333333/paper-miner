@@ -14,11 +14,11 @@ researcher with this profile:
 They work on computational and theoretical chemistry. Their current interests
 involve: (1) many-body potentials, many-body expansion, and permutationally
 invariant polynomials, (2) machine learning force fields including MACE,
-equivariant neural network potentials, and universal interatomic potentials,
-(3) GPU-accelerated quantum chemistry and Density Functional Theory, (4)
-data-driven molecular simulation, biomolecular force fields, and Markov State
-Models. They closely follow the work of Ilyes Batatia, Mingyuan Zhang, and
-Vladimir Mironov.\
+universal interatomic potentials, and CCSD(T)-level ML potentials, (3)
+GPU-accelerated simulation and Density Functional Theory, (4) data-driven
+molecular simulation, biomolecular force fields, molecular fragmentation,
+and biomolecular simulation structural validation. They closely follow the
+work of Ilyes Batatia, Bingqing Cheng, Mark E. Tuckerman, and Michele Ceriotti.\
 """
 
 
