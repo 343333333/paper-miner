@@ -19,21 +19,30 @@ TOPIC_KEYWORDS = [
     "universal interatomic potential",
     "FAIR atomistic simulation",
     "equivariant neural network potential",
+    "Density Functional Theory"
 ]
 
 # Author names — searched in the author field (not abstract)
 AUTHOR_NAMES = [
     "Ilyes Batatia",
     "Mingyuan Zhang",
+    "Vladimir Mironov",
 ]
 
 # Scoring
-SCORE_THRESHOLD = 4          # Papers below this are discarded
+SCORE_THRESHOLD = 7          # Papers below this are discarded
 MAX_DIGEST_PAPERS = 8        # Max papers sent in one digest
+
+# ChemRxiv categories (Physical Chemistry, Theoretical and Computational Chemistry)
+CHEMRXIV_CATEGORY_IDS = [
+    "605c72ef153207001f6470cf",  # Physical Chemistry
+    "605c72ef153207001f6470ce",  # Theoretical and Computational Chemistry
+]
 
 # Search limits
 ARXIV_MAX_RESULTS = 50
 PUBMED_MAX_RESULTS = 50
+CHEMRXIV_MAX_RESULTS = 50
 LOOKBACK_DAYS = 3            # How many days back to search (matches delivery frequency)
 
 # API model names
