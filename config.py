@@ -22,6 +22,7 @@ TOPIC_KEYWORDS = [
 
     # Cluster C - Key researchers
     "Ilyes Batatia",
+    "Mingyuan Zhang"
 )
 
 # Scoring
