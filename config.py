@@ -19,12 +19,14 @@ TOPIC_KEYWORDS = [
     "universal interatomic potential",
     "FAIR atomistic simulation",
     "equivariant neural network potential",
+    "Density Functional Theory"
 ]
 
 # Author names — searched in the author field (not abstract)
 AUTHOR_NAMES = [
     "Ilyes Batatia",
     "Mingyuan Zhang",
+    "Vladimir Mironov",
 ]
 
 # Scoring
