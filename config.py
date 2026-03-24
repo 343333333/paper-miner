@@ -1,6 +1,6 @@
 """Configuration: topics, scoring thresholds, search parameters."""
 # arXiv categories to search
-ARXIV_CATEGORIES = ["physics.chem-ph", "cond-mat.soft", "q-bio.BM", "cs.LG"]
+ARXIV_CATEGORIES = ["physics.chem-ph", "cond-mat.soft", "q-bio.BM", "cs.LG", "physics.bio-ph"]
 
 # Topic keywords used to build search queries
 TOPIC_KEYWORDS = [
