@@ -30,7 +30,7 @@ AUTHOR_NAMES = [
 ]
 
 # Scoring
-SCORE_THRESHOLD = 7          # Papers below this are discarded
+SCORE_THRESHOLD = 4        # Papers below this are discarded
 MAX_DIGEST_PAPERS = 8        # Max papers sent in one digest
 
 # ChemRxiv categories (Physical Chemistry, Theoretical and Computational Chemistry)
