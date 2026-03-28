@@ -269,6 +269,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15001132/v1",
       "title": "Mg2+ Catalyzes Nonenzymatic RNA Primer Extension through a Concerted Outer-Sphere Mechanism",
       "sent_date": "2026-03-24"
+    },
+    {
+      "id": "arxiv:2603.24752v1",
+      "title": "Autotuning T-PaiNN: Enabling Data-Efficient GNN Interatomic Potential Development via Classical-to-Quantum Transfer Learning",
+      "sent_date": "2026-03-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001313/v1",
+      "title": "Benchmarking Ice-Water Equilibria Exhibited by Foundation Neural Network Potentials",
+      "sent_date": "2026-03-28"
+    },
+    {
+      "id": "arxiv:2603.24881v1",
+      "title": "Implementation of the multigrid Gaussian-Plane-Wave algorithm with GPU acceleration in PySCF",
+      "sent_date": "2026-03-28"
     }
   ]
 }
