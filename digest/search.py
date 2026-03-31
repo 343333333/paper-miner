@@ -50,8 +50,18 @@ def fetch_arxiv_papers() -> list[dict]:
         "sortOrder": "descending",
     }
     url = f"{ARXIV_API}?{urllib.parse.urlencode(params)}"
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
+    for attempt in range(3):
+        resp = requests.get(url, timeout=30)
+        if resp.status_code == 429:
+            wait = 5 * (attempt + 1)
+            print(f"  arXiv rate limited, retrying in {wait}s...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        break
+    else:
+        print("  arXiv: rate limited after 3 retries, skipping")
+        return []
 
     ns = {
         "atom": "http://www.w3.org/2005/Atom",
