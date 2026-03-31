@@ -3,6 +3,7 @@
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import anthropic
@@ -99,7 +100,7 @@ def score_papers(papers: list[dict]) -> list[dict]:
         raise ValueError("ANTHROPIC_API_KEY environment variable not set")
     client = anthropic.Anthropic(api_key=api_key)
 
-    BATCH_SIZE = 10
+    BATCH_SIZE = 5
     scored: list[dict] = []
 
     for batch_start in range(0, len(papers), BATCH_SIZE):
@@ -109,6 +110,9 @@ def score_papers(papers: list[dict]) -> list[dict]:
             futures = {executor.submit(_score_paper, client, p): p for p in batch}
             for future in as_completed(futures):
                 scored.append(future.result())
+        # Pause between batches to stay under API rate limit (50 req/min)
+        if batch_start + BATCH_SIZE < len(papers):
+            time.sleep(8)
 
     # Print all scores for transparency
     scored.sort(key=lambda p: p["score"], reverse=True)
