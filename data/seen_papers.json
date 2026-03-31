@@ -284,6 +284,26 @@
       "id": "arxiv:2603.24881v1",
       "title": "Implementation of the multigrid Gaussian-Plane-Wave algorithm with GPU acceleration in PySCF",
       "sent_date": "2026-03-28"
+    },
+    {
+      "id": "arxiv:2603.27767v1",
+      "title": "Understanding the Density Maximum of Water with Machine Learned Potentials",
+      "sent_date": "2026-03-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001387/v1",
+      "title": "Local Symmetry Breaking and Two-Stage Phase Transition in RuP Uncovered by a Fine-Tuned Atomistic Foundation Model",
+      "sent_date": "2026-03-31"
+    },
+    {
+      "id": "arxiv:2603.28588v1",
+      "title": "Path Integral Methods in Atomistic Modelling: An Introduction",
+      "sent_date": "2026-03-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001181/v2",
+      "title": "Accelerating Quantum Chemistry Automation: Early Detection and Recovery of SCF Convergence Failure via Time Series Feature Extraction",
+      "sent_date": "2026-03-31"
     }
   ]
 }
