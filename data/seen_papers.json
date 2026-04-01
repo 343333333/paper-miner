@@ -304,6 +304,11 @@
       "id": "chemrxiv:10.26434/chemrxiv.15001181/v2",
       "title": "Accelerating Quantum Chemistry Automation: Early Detection and Recovery of SCF Convergence Failure via Time Series Feature Extraction",
       "sent_date": "2026-03-31"
+    },
+    {
+      "id": "arxiv:2603.28927v1",
+      "title": "Hydrogen-helium immiscibility boundary in planets",
+      "sent_date": "2026-04-01"
     }
   ]
 }
