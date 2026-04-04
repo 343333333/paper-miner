@@ -309,6 +309,31 @@
       "id": "arxiv:2603.28927v1",
       "title": "Hydrogen-helium immiscibility boundary in planets",
       "sent_date": "2026-04-01"
+    },
+    {
+      "id": "arxiv:2604.01360v1",
+      "title": "A New Paradigm for Computational Chemistry",
+      "sent_date": "2026-04-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001544/v1",
+      "title": "STING, guided active learning for Machine Learned Interatomic Potentials examined on Lithium Thiophosphate solid state electrolytes",
+      "sent_date": "2026-04-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001529/v1",
+      "title": "GRACE-OFF: A machine-learned interatomic potential for organic liquids using the GRACE architecture",
+      "sent_date": "2026-04-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001403/v2",
+      "title": "Probing Vibrational Excitation Patterns of Benzene Dimer using Machine Learning Tools",
+      "sent_date": "2026-04-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001559/v1",
+      "title": "Atomistic Simulations of Biomolecular Condensates",
+      "sent_date": "2026-04-04"
     }
   ]
 }
