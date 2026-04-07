@@ -334,6 +334,26 @@
       "id": "chemrxiv:10.26434/chemrxiv.15001559/v1",
       "title": "Atomistic Simulations of Biomolecular Condensates",
       "sent_date": "2026-04-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001631/v1",
+      "title": "Machine-learned nonadiabatic couplings enable reactive photochemical reaction dynamics simulations",
+      "sent_date": "2026-04-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001665/v1",
+      "title": "Towards Scalable and Efficient Machine-Learning Force Fields: The MatPL package and Its Advancements on Neuroevolution Potentials",
+      "sent_date": "2026-04-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001629/v1",
+      "title": "A Gentle Push: Data-Efficiency in Fine-Tuning Foundation Models for Complex Oxide Surface Reconstructions",
+      "sent_date": "2026-04-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001632/v1",
+      "title": "A Continuous-Space Analytical Framework for Committor Functions from Molecular Dynamics",
+      "sent_date": "2026-04-07"
     }
   ]
 }
