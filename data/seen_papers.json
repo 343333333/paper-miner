@@ -354,6 +354,26 @@
       "id": "chemrxiv:10.26434/chemrxiv.15001632/v1",
       "title": "A Continuous-Space Analytical Framework for Committor Functions from Molecular Dynamics",
       "sent_date": "2026-04-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000716/v2",
+      "title": "MACE-MDP: A General Dipole and Polarizability Model for Organic Molecules and Materials",
+      "sent_date": "2026-04-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001723/v1",
+      "title": "Quantum-Accurate Enhanced Sampling and Mini-Protein Folding through Replica Exchange for Multiscale Neural Network Potentials",
+      "sent_date": "2026-04-10"
+    },
+    {
+      "id": "arxiv:2604.07623v1",
+      "title": "The BOS-TMC Dataset: DFT Properties of 159k Experimentally Characterized Transition Metal Complexes Spanning Multiple Charge and Spin States",
+      "sent_date": "2026-04-10"
+    },
+    {
+      "id": "arxiv:2604.06539v1",
+      "title": "The effects of dispersion damping and three-body interactions for accurate layered-material exfoliation energies",
+      "sent_date": "2026-04-10"
     }
   ]
 }
