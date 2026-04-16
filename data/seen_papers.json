@@ -374,6 +374,26 @@
       "id": "arxiv:2604.06539v1",
       "title": "The effects of dispersion damping and three-body interactions for accurate layered-material exfoliation energies",
       "sent_date": "2026-04-10"
+    },
+    {
+      "id": "arxiv:2604.13659v1",
+      "title": "Ion-Specific Anomalous Water Diffusion in Aqueous Electrolytes: A Machine-Learned Many-Body Force Field Study with MACE",
+      "sent_date": "2026-04-16"
+    },
+    {
+      "id": "arxiv:2604.13897v1",
+      "title": "MolCryst-MLIPs: A Machine-Learned Interatomic Potentials Database for Molecular Crystals",
+      "sent_date": "2026-04-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002012/v1",
+      "title": "Self-consistent biased fine-tuning for highly accurate reaction-specific machine-learning interatomic potentials",
+      "sent_date": "2026-04-16"
+    },
+    {
+      "id": "arxiv:2604.12877v1",
+      "title": "Fidelity of Machine Learned Potentials: Quantitative Assessment for Protonated Oxalate",
+      "sent_date": "2026-04-16"
     }
   ]
 }
