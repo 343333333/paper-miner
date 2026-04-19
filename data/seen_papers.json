@@ -394,6 +394,31 @@
       "id": "arxiv:2604.12877v1",
       "title": "Fidelity of Machine Learned Potentials: Quantitative Assessment for Protonated Oxalate",
       "sent_date": "2026-04-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002127/v1",
+      "title": "A Data-Efficient Machine-Learning Approach for Modeling the Photodynamics of All-trans Hexatriene based on Multireference Configuration Interaction Calculations",
+      "sent_date": "2026-04-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000607/v2",
+      "title": "Hydration Free Energies of Alkali Metal and Halide Ions from Data-Driven Many-Body Potentials",
+      "sent_date": "2026-04-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2026-2krfd/v2",
+      "title": "The Elusive Nature of Aromatic Carbocation Intermediates in Confined Catalytic Environments",
+      "sent_date": "2026-04-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.10001947/v2",
+      "title": "More accurate and reproducible glass transition temperature calculation with unsupervised machine learning and neural network charges",
+      "sent_date": "2026-04-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002135/v1",
+      "title": "moTSart: Accelerating Automated Transition State Search with Generative Models in a Low-Data Regime",
+      "sent_date": "2026-04-19"
     }
   ]
 }
