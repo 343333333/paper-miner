@@ -419,6 +419,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15002135/v1",
       "title": "moTSart: Accelerating Automated Transition State Search with Generative Models in a Low-Data Regime",
       "sent_date": "2026-04-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002177/v1",
+      "title": "NNP/CG-MM: Embedding of All-Atom Neural Network Potentials into a Coarse-Grained Molecular Mechanics Environment",
+      "sent_date": "2026-04-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002288/v1",
+      "title": "Electron Alchemy with Machine Learned Interatomic Potentials: Case Studies of Local Charge in Bond Dissociation Curves",
+      "sent_date": "2026-04-22"
+    },
+    {
+      "id": "arxiv:2604.19622v1",
+      "title": "Beyond the Virial Expansion: Microscopic Origins of Partial Molar Volumes in LiCl Solutions",
+      "sent_date": "2026-04-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001790/v2",
+      "title": "The Heisenberg Fingerprint: Physics-Informed Molecular Similarity from Neural Network Potential Hidden States",
+      "sent_date": "2026-04-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002208/v1",
+      "title": "A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era",
+      "sent_date": "2026-04-22"
     }
   ]
 }
