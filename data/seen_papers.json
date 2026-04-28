@@ -469,6 +469,26 @@
       "id": "arxiv:2604.21069v1",
       "title": "Accelerating point defect simulations using data-driven and machine learning approaches",
       "sent_date": "2026-04-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002402/v1",
+      "title": "Field-Aware and Charge-Informed Machine Learning for Predicting Molecular Responses and Vibrational Spectra",
+      "sent_date": "2026-04-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002391/v1",
+      "title": "Charge and Spin Aware Graph Neural Network with Spin-polarized Charge Equilibration Method",
+      "sent_date": "2026-04-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002394/v1",
+      "title": "TorchFF: A High-Performance GPU-accelerated Differentiable Force Field Library",
+      "sent_date": "2026-04-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002388/v1",
+      "title": "Bridging Surface Dynamics and Phase Transitions in CsPbI3 Perovskite With Machine-Learning Force Fields and Dispersion Interactions",
+      "sent_date": "2026-04-28"
     }
   ]
 }
