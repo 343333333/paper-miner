@@ -489,6 +489,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15002388/v1",
       "title": "Bridging Surface Dynamics and Phase Transitions in CsPbI3 Perovskite With Machine-Learning Force Fields and Dispersion Interactions",
       "sent_date": "2026-04-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002480/v1",
+      "title": "Experimental Validation of Universal Machine Learning Interatomic Potentials for Lithium-Ion Dynamics in Solid Electrolytes via 7Li NMR",
+      "sent_date": "2026-05-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002484/v1",
+      "title": "Can machine learning predict solvation effects on energies and geometries of highly charged molecules?",
+      "sent_date": "2026-05-01"
     }
   ]
 }
