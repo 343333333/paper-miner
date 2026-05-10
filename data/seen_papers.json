@@ -499,6 +499,26 @@
       "id": "chemrxiv:10.26434/chemrxiv.15002484/v1",
       "title": "Can machine learning predict solvation effects on energies and geometries of highly charged molecules?",
       "sent_date": "2026-05-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002895/v1",
+      "title": "Machine Learning Potentials for Electrified Interfaces",
+      "sent_date": "2026-05-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002885/v1",
+      "title": "A \u2206-Learning Approach to Machine Learning Interatomic Potentials for Intermolecular Interactions",
+      "sent_date": "2026-05-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002913/v1",
+      "title": "Artificially intelligent modeling of macromolecular assemblies",
+      "sent_date": "2026-05-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002879/v1",
+      "title": "Influence of exchange\u2013correlation functional on machine-learnt interatomic potentials accuracy: a systematic study in borosilicate glasses",
+      "sent_date": "2026-05-10"
     }
   ]
 }
