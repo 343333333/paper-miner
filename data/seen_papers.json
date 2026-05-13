@@ -519,6 +519,41 @@
       "id": "chemrxiv:10.26434/chemrxiv.15002879/v1",
       "title": "Influence of exchange\u2013correlation functional on machine-learnt interatomic potentials accuracy: a systematic study in borosilicate glasses",
       "sent_date": "2026-05-10"
+    },
+    {
+      "id": "arxiv:2605.10266v1",
+      "title": "Overfitting by design: neural network density functionals for water",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003003/v1",
+      "title": "Machine learning interatomic potential enhanced thermochemistry predictions across organic compound space",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2025-6vcnc/v2",
+      "title": "DP\u03c7: A Charge-Based Machine-Learning Potential Validated on the Pt(111)-Water Electrochemical Interface",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002964/v1",
+      "title": "Data-Efficient and Fast Machine Learning Molecular Dynamics through Integrated Active Learning and Knowledge Distillation",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003015/v1",
+      "title": "Dataset Merging Strategy for Efficient Construction of a Machine-Learning Force Field: A case of CeO2 Surfaces with an Oxygen Vacancy",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "arxiv:2605.10363v1",
+      "title": "Accelerating Locality-Driven Integration in Quantum Chemistry with Block-Structured Matrix Multiplication",
+      "sent_date": "2026-05-13"
+    },
+    {
+      "id": "arxiv:2605.09752v1",
+      "title": "Polarizable Embedding QM/MM for Periodic Systems",
+      "sent_date": "2026-05-13"
     }
   ]
 }
