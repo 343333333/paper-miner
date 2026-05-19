@@ -554,6 +554,21 @@
       "id": "arxiv:2605.09752v1",
       "title": "Polarizable Embedding QM/MM for Periodic Systems",
       "sent_date": "2026-05-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003351/v2",
+      "title": "Information-Geometric Conditioning of Atomistic Datasets for Efficient Learning",
+      "sent_date": "2026-05-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003485/v1",
+      "title": "Chemical Signatures of Descriptor Performance in Band Gap Prediction for Organic Molecules",
+      "sent_date": "2026-05-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003481/v1",
+      "title": "Weighted Views Representation with Multi-Head Coulomb Attention for Molecular Property Prediction",
+      "sent_date": "2026-05-19"
     }
   ]
 }
