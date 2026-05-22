@@ -569,6 +569,46 @@
       "id": "chemrxiv:10.26434/chemrxiv.15003481/v1",
       "title": "Weighted Views Representation with Multi-Head Coulomb Attention for Molecular Property Prediction",
       "sent_date": "2026-05-19"
+    },
+    {
+      "id": "arxiv:2605.20581v1",
+      "title": "TriForces: Augmenting Atomistic GNNs for Transferable Representations",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003610/v1",
+      "title": "MPID Polarizable Force Field: GPU Implementation and Biomolecular Simulations",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003619/v1",
+      "title": "Sparse Linear Surrogates Match Neural-Network Potentials on the SPICE Biomolecular Benchmark with Three Orders of Magnitude Smaller Training Sets",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003538/v1",
+      "title": "pdb2reaction: End-to-End Reaction-Path Elucidation from PDB Structures Using Machine-Learning Interatomic Potentials",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003524/v1",
+      "title": "Sub-kJ/mol Precision at Practical Cost for Molecular Solids through Local Coupled Cluster Approaches",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003553/v1",
+      "title": "Solvation-Mediated Ammonia Synthesis in a Nanoheterogeneous Liquid Alloy",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003682/v1",
+      "title": "Prediction of triplet geometries across chemical space with flow-matching based machine learning",
+      "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003575/v1",
+      "title": "A quantum chemical dataset of electrostatic and electronic properties of drug-like molecules",
+      "sent_date": "2026-05-22"
     }
   ]
 }
