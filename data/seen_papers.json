@@ -609,6 +609,11 @@
       "id": "chemrxiv:10.26434/chemrxiv.15003575/v1",
       "title": "A quantum chemical dataset of electrostatic and electronic properties of drug-like molecules",
       "sent_date": "2026-05-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003749/v1",
+      "title": "Entropy in materials design: Modelling entropic stabilisation of crystalline materials",
+      "sent_date": "2026-05-25"
     }
   ]
 }
