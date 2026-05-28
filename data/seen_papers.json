@@ -614,6 +614,41 @@
       "id": "chemrxiv:10.26434/chemrxiv.15003749/v1",
       "title": "Entropy in materials design: Modelling entropic stabilisation of crystalline materials",
       "sent_date": "2026-05-25"
+    },
+    {
+      "id": "arxiv:2605.28798v1",
+      "title": "How reproducible are first-principles simulations of liquid water?",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003942/v1",
+      "title": "Balancing Diversity and Efficiency in Training Datasets for Robust Machine Learning Potentials",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003938/v1",
+      "title": "Transfer learning on universal interatomic potential embeddings improves generalization in structure-property defect models",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003886/v1",
+      "title": "An analytically differentiable submatrix-descriptor neural-network potential for molecular simulations of liquid water",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003852/v1",
+      "title": "Agentic, autonomous design evolution of machine-learned interatomic potentials",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003907/v1",
+      "title": "Excited-State Intramolecular Proton Transfer Dynamics with Neural Network Potentials and Nuclear Quantum Effects",
+      "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003939/v1",
+      "title": "Periodic GFN2-xTB in CP2K: Multipolar Ewald Electrostatics, k-Point Sampling, and Transferability Benchmarks for Molecular Solids",
+      "sent_date": "2026-05-28"
     }
   ]
 }
