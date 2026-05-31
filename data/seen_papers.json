@@ -649,6 +649,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15003939/v1",
       "title": "Periodic GFN2-xTB in CP2K: Multipolar Ewald Electrostatics, k-Point Sampling, and Transferability Benchmarks for Molecular Solids",
       "sent_date": "2026-05-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004005/v1",
+      "title": "Mechanistic Understanding of Proton Transport in Metal\u2013Organic Frameworks via Universal Machine-Learned Potentials",
+      "sent_date": "2026-05-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004032/v1",
+      "title": "Machine-Learning-Accelerated Density Functional Theory",
+      "sent_date": "2026-05-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004024/v1",
+      "title": "ChiralSPE: Benchmarking Trustworthiness and Symmetry in Atomistic Foundation Models based on OMol25",
+      "sent_date": "2026-05-31"
     }
   ]
 }
