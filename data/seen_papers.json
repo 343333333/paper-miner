@@ -664,6 +664,46 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004024/v1",
       "title": "ChiralSPE: Benchmarking Trustworthiness and Symmetry in Atomistic Foundation Models based on OMol25",
       "sent_date": "2026-05-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004259/v1",
+      "title": "Integrating Coupled-Cluster Theory within AI Workflows for Accurate Molecular Geometries",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000992/v2",
+      "title": "Accessible hybrid DFT-quality NMR crystallography via gas-phase Machine Learning Interatomic Potentials",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000328/v2",
+      "title": "Fusing Delta Learning and Machine Learned Interatomic Potentials for Efficient High Throughput Calculation of Surface Kinetic Parameters",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004105/v1",
+      "title": "Data-Driven Discovery of Structure\u2013Reactivity Relationships in Oxidative Addition at Zerovalent Nickel Centers",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004133/v1",
+      "title": "Combining Electronic Structure Methods and Machine Learning Interatomic Potentials in Adsorption Studies",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15000086/v2",
+      "title": "Mixed Quantum-Classical Dynamics for Molecular Excited States: Reliability, Scalability, and Representation",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004179/v1",
+      "title": "Mapping Hierarchical Motifs in disorder-order transitions: learning the hierarchy of structural motifs in supercooled water and ice polymorphs",
+      "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004169/v1",
+      "title": "Fast training of bespoke SMIRNOFF-format molecular mechanics force fields using machine learning potentials",
+      "sent_date": "2026-06-04"
     }
   ]
 }
