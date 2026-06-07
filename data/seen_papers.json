@@ -704,6 +704,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004169/v1",
       "title": "Fast training of bespoke SMIRNOFF-format molecular mechanics force fields using machine learning potentials",
       "sent_date": "2026-06-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003942/v2",
+      "title": "Balancing Diversity and Efficiency in Training Datasets for Robust Machine Learning Interatomic Potentials",
+      "sent_date": "2026-06-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004329/v1",
+      "title": "Quantum-accurate strain energy estimation of saturated ring systems in drug-like molecules via equivariant deep learning",
+      "sent_date": "2026-06-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004290/v1",
+      "title": "Advancing Cation\u2013\u03c0 Interaction Modeling: Development of Novel Force Field Models",
+      "sent_date": "2026-06-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004330/v1",
+      "title": "First-principles data for solid-solution Nb\u2013Zr, Ta\u2013Zr, and V\u2013Zr binary alloys with body-centered-cubic structures",
+      "sent_date": "2026-06-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004324/v1",
+      "title": "Learning chemically transferable protein-protein binding energetics from peptide potential of mean force building blocks",
+      "sent_date": "2026-06-07"
     }
   ]
 }
