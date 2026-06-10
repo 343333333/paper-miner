@@ -729,6 +729,36 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004324/v1",
       "title": "Learning chemically transferable protein-protein binding energetics from peptide potential of mean force building blocks",
       "sent_date": "2026-06-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004450/v1",
+      "title": "Reinventing Density Functional Theory with Machine-Learned Integral Features",
+      "sent_date": "2026-06-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004414/v1",
+      "title": "Mechanism of Alkene Skeletal Isomerization in Zeolites Revealed by Coupled-Cluster Accurate Free-Energy Simulations",
+      "sent_date": "2026-06-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004494/v1",
+      "title": "Hierarchical Dimensionality Escalation of Ionic Diffusion in Superionic Copper Iodide",
+      "sent_date": "2026-06-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004169/v2",
+      "title": "Fast training of bespoke SMIRNOFF-format molecular mechanics force fields using machine learning potentials",
+      "sent_date": "2026-06-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001654/v2",
+      "title": "Autonomous computational catalysis through an agentic research system",
+      "sent_date": "2026-06-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004404/v1",
+      "title": "Atomic Environment Aware Lennard-Jones Parameterization for Electrostatic Embedding ML/MM Simulations",
+      "sent_date": "2026-06-10"
     }
   ]
 }
