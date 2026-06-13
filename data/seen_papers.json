@@ -759,6 +759,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004404/v1",
       "title": "Atomic Environment Aware Lennard-Jones Parameterization for Electrostatic Embedding ML/MM Simulations",
       "sent_date": "2026-06-10"
+    },
+    {
+      "id": "arxiv:2606.12704v1",
+      "title": "Fine-tuning MLIP foundation models: strategies for accuracy and transferability",
+      "sent_date": "2026-06-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004671/v1",
+      "title": "Whole-Enzyme Reactive Free-Energy Simulations with a Universal Machine Learning Interatomic Potential: Catalytic Mechanism and Mutational Effects of PETase",
+      "sent_date": "2026-06-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004450/v2",
+      "title": "Reinventing Density Functional Theory with Machine Learning on Integral Features",
+      "sent_date": "2026-06-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004623/v1",
+      "title": "FLAMES \u2013 A flexible and extensible code for Monte Carlo simulations of nanoporous materials",
+      "sent_date": "2026-06-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004657/v1",
+      "title": "E(3)-VERDE: A 3D-Equivariant Neural Network for the Complete Ground and Excited- State Redox Landscape of Organic Photocatalysts",
+      "sent_date": "2026-06-13"
     }
   ]
 }
