@@ -47,5 +47,5 @@ CHEMRXIV_MAX_RESULTS = 50
 LOOKBACK_DAYS = 3            # How many days back to search (matches delivery frequency)
 
 # API model names
-HAIKU_MODEL = "claude-haiku-4-5"
-SONNET_MODEL = "claude-sonnet-4-20250514"
+HAIKU_MODEL = "claude-sonnet-4-6"
+SONNET_MODEL = "claude-sonnet-4-6"
