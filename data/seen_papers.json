@@ -784,6 +784,36 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004657/v1",
       "title": "E(3)-VERDE: A 3D-Equivariant Neural Network for the Complete Ground and Excited- State Redox Landscape of Organic Photocatalysts",
       "sent_date": "2026-06-13"
+    },
+    {
+      "id": "arxiv:2606.20105v1",
+      "title": "Can DFT-trained neural network potentials reproduce structure, solvation, and water-exchange properties in aqueous magnesium solutions?",
+      "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004915/v1",
+      "title": "A Charge-Consistent Long-Range Machine-Learned Interatomic Potential Compatible with Quantum Linear System Algorithms",
+      "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004864/v1",
+      "title": "G-NequIP: Data-Efficient Generalization of Equivariant Neural Network Potentials across Diverse Organic Chemical Space",
+      "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004793/v1",
+      "title": "NN-Dx: Chemically adaptive dispersion physics for density-functional theory",
+      "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004824/v1",
+      "title": "Where Foundation Machine-Learning Potentials Fail for Iron-Sulfide Defect Kinetics: Four Failure Modes and a DFT Benchmark of Vacancy-Anchored Hydrogen Migration in Pyrite, Marcasite, Mackinawite, and Greigite",
+      "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004823/v1",
+      "title": "Interplay of polaron hopping and Jahn\u2013Teller dynamics defines the mechanism of electronic transport in LiMn2O4",
+      "sent_date": "2026-06-19"
     }
   ]
 }
