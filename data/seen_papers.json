@@ -814,6 +814,11 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004823/v1",
       "title": "Interplay of polaron hopping and Jahn\u2013Teller dynamics defines the mechanism of electronic transport in LiMn2O4",
       "sent_date": "2026-06-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004951/v1",
+      "title": "An efficient neural network architecture for molecular vibrational states: from rigid molecules to molecular complexes",
+      "sent_date": "2026-06-22"
     }
   ]
 }
