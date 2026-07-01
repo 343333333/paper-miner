@@ -819,6 +819,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004951/v1",
       "title": "An efficient neural network architecture for molecular vibrational states: from rigid molecules to molecular complexes",
       "sent_date": "2026-06-22"
+    },
+    {
+      "id": "arxiv:2606.30778v1",
+      "title": "ReactionAtlas: Ab origine exploration of chemical reaction networks with machine learning",
+      "sent_date": "2026-07-01"
+    },
+    {
+      "id": "arxiv:2606.31660v1",
+      "title": "Contrastive Regularization of Machine Learning Potentials",
+      "sent_date": "2026-07-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005431/v1",
+      "title": "Accelerated Stable Structure Prediction of Li-Intercalated Bilayer Graphene Using a Data-Efficient Deep Learning Framework",
+      "sent_date": "2026-07-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005463/v1",
+      "title": "Accurate Molecular Properties via Bootstrap Embedding",
+      "sent_date": "2026-07-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005328/v1",
+      "title": "Stability and Thermophysical Properties of Solid and Molten BeF2 via Density Functional Theory and Machine Learning Potentials",
+      "sent_date": "2026-07-01"
     }
   ]
 }
