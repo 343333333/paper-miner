@@ -844,6 +844,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005328/v1",
       "title": "Stability and Thermophysical Properties of Solid and Molten BeF2 via Density Functional Theory and Machine Learning Potentials",
       "sent_date": "2026-07-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005623/v1",
+      "title": "Obtaining Dynamics of Supported Metal Nanoparticles using Cost-effective Training of Machine Learning Force Fields",
+      "sent_date": "2026-07-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005580/v1",
+      "title": "Memory-Aware SIMD-Enabled Permutationally Invariant Polynomial Code-Generation Procedure: Acceleration of the MB-pol Potential Energy Function as an Example",
+      "sent_date": "2026-07-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005472/v1",
+      "title": "Field-Driven Proton Transport in Water Revealed by Machine Learning Molecular Dynamics",
+      "sent_date": "2026-07-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005543/v1",
+      "title": "GNN-\u03c9PBE: Range-Separation Parameters Learned from Three-Dimensional Structures",
+      "sent_date": "2026-07-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005529/v1",
+      "title": "Evaluating Mechanical-Embedding ML/MM for Predicting Mutation Effects in Chorismate Mutase Catalysis",
+      "sent_date": "2026-07-04"
     }
   ]
 }
