@@ -869,6 +869,11 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005529/v1",
       "title": "Evaluating Mechanical-Embedding ML/MM for Predicting Mutation Effects in Chorismate Mutase Catalysis",
       "sent_date": "2026-07-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005684/v1",
+      "title": "FRIE: Machine Learning Prediction Models for Interfragment Interaction Energies between Amino Acid Residues Based on QM Data in FMODB",
+      "sent_date": "2026-07-07"
     }
   ]
 }
