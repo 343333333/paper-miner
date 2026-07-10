@@ -874,6 +874,41 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005684/v1",
       "title": "FRIE: Machine Learning Prediction Models for Interfragment Interaction Energies between Amino Acid Residues Based on QM Data in FMODB",
       "sent_date": "2026-07-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005828/v2",
+      "title": "Intrinsic Irreducible-Cartesian Tensor Carrier for Equivariant Interatomic Potentials",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005796/v1",
+      "title": "VPT2 Meets MLPs: IR and Raman Spectroscopy of Eight Molecules, Including 74-Atom Cholesterol, Using MACE-OFF and MACE-MDP",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005623/v2",
+      "title": "Obtaining Dynamics of Supported Metal Nanoparticles using Cost-effective Training of Machine Learning Force Fields",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005781/v1",
+      "title": "Dynamic vacancy redistribution shifts Pd nanoparticle coalescence from orientation-gated to defect-enabled on reduced CeO2(110)",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005543/v2",
+      "title": "GNN-\u03c9PBE: Range-Separation Parameters Learned from Three-Dimensional Structures",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005842/v1",
+      "title": "Structure Prediction of Multi-Component Molecular Crystals with Genarris 4.0",
+      "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005749/v1",
+      "title": "Temperature-and pressure-dependent water stabilization of CO dimerization on Cu(100)",
+      "sent_date": "2026-07-10"
     }
   ]
 }
