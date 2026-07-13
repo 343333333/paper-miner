@@ -909,6 +909,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005749/v1",
       "title": "Temperature-and pressure-dependent water stabilization of CO dimerization on Cu(100)",
       "sent_date": "2026-07-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002964/v2",
+      "title": "Data-Efficient and Fast Machine Learning Molecular Dynamics through Integrated Active Learning and Knowledge Distillation",
+      "sent_date": "2026-07-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005940/v1",
+      "title": "An element-resolved coupled cluster atomization energy data set ranging across the periodic table",
+      "sent_date": "2026-07-13"
     }
   ]
 }
