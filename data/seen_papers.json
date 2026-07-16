@@ -919,6 +919,41 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005940/v1",
       "title": "An element-resolved coupled cluster atomization energy data set ranging across the periodic table",
       "sent_date": "2026-07-13"
+    },
+    {
+      "id": "arxiv:2607.13261v1",
+      "title": "Aromatic Molecule Solvation in Liquid Water with Coupled Cluster Accuracy: The Balance of Pi-Interactions and Hydrophobicity",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006079/v1",
+      "title": "Reactive Molecular Dynamics of Hydrogen Evolution at Charged Interfaces Using Machine Learning Potentials",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005463/v2",
+      "title": "Accurate Molecular Properties via Bootstrap Embedding",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005989/v1",
+      "title": "Chemical Shift Prediction Beyond the Electronic Structure Limit",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006048/v1",
+      "title": "How Ready Are Universal Machine-learned Interatomic Potentials for Carbon Capture Simulations?",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "arxiv:2607.13781v1",
+      "title": "jQMC: A JAX-based ab initio quantum Monte Carlo package designed for GPU-accelerated computing",
+      "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006067/v1",
+      "title": "ReactiveLJ: A Coordination-Dependent Lennard-Jones-Based Potential for Reversible Bonding in Coarse-Grained Simulations",
+      "sent_date": "2026-07-16"
     }
   ]
 }
