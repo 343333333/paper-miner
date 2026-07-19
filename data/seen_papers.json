@@ -954,6 +954,26 @@
       "id": "chemrxiv:10.26434/chemrxiv.15006067/v1",
       "title": "ReactiveLJ: A Coordination-Dependent Lennard-Jones-Based Potential for Reversible Bonding in Coarse-Grained Simulations",
       "sent_date": "2026-07-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006187/v1",
+      "title": "Pauli Charges Improve the Training of Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-07-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2025-f1hgn/v5",
+      "title": "A Foundation Model for Accurate Atomistic Simulations in Drug Design",
+      "sent_date": "2026-07-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003907/v2",
+      "title": "Excited-State Intramolecular Proton Transfer Dynamics with Neural Network Potentials and Nuclear Quantum Effects",
+      "sent_date": "2026-07-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006211/v1",
+      "title": "Single-GPU ML/MM Metadynamics Captures Enzyme-Bound Carbohydrate Puckering",
+      "sent_date": "2026-07-19"
     }
   ]
 }
