@@ -974,6 +974,26 @@
       "id": "chemrxiv:10.26434/chemrxiv.15006211/v1",
       "title": "Single-GPU ML/MM Metadynamics Captures Enzyme-Bound Carbohydrate Puckering",
       "sent_date": "2026-07-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006265/v1",
+      "title": "Navigating Compositional Space in Palladium Hydride: Benchmarking Machine Learning Interatomic Potentials",
+      "sent_date": "2026-07-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006393/v1",
+      "title": "Efficient and Accurate Ligand Strain Calculations in Solution with the AIMNet2 Neural Network Potential",
+      "sent_date": "2026-07-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003003/v3",
+      "title": "MLIP-Enhanced Thermochemistry Predictions across Organic Chemical Space",
+      "sent_date": "2026-07-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005743/v2",
+      "title": "Foundation interatomic potentials learn the practical chemistry they were never taught",
+      "sent_date": "2026-07-22"
     }
   ]
 }
