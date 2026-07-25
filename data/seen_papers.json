@@ -994,6 +994,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15005743/v2",
       "title": "Foundation interatomic potentials learn the practical chemistry they were never taught",
       "sent_date": "2026-07-22"
+    },
+    {
+      "id": "arxiv:2607.21369v1",
+      "title": "Graph Neural Network Force Fields (GPTFF-mol) for Organic Molecules from Optimization Trajectories (OpenGEM26)",
+      "sent_date": "2026-07-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006459/v1",
+      "title": "Label-Free, Quantum-Mechanically Informed Scoring of Protein\u2013Ligand Complexes with Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-07-25"
     }
   ]
 }
