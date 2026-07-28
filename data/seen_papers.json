@@ -1004,6 +1004,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15006459/v1",
       "title": "Label-Free, Quantum-Mechanically Informed Scoring of Protein\u2013Ligand Complexes with Machine-Learned Interatomic Potentials",
       "sent_date": "2026-07-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006459/v2",
+      "title": "Label-Free, Quantum-Mechanically Informed Scoring of Protein\u2013Ligand Complexes with Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-07-28"
+    },
+    {
+      "id": "arxiv:2607.24327v1",
+      "title": "Aligning Heterogeneous DFT Datasets: A Graph Neural Network Approach to Cross-Functional Formation Energies",
+      "sent_date": "2026-07-28"
     }
   ]
 }
