@@ -1039,6 +1039,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15006680/v1",
       "title": "Mechanistic Insights into Ammonia Formation on Dynamic Liquid Metal Catalysts",
       "sent_date": "2026-07-31"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006924/v1",
+      "title": "Enhancing the Efficiency and Flexibility of AutoMeKin: Integrating ORCA and Machine-Learning Potentials",
+      "sent_date": "2026-08-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006892/v1",
+      "title": "Halide Identity Shapes Ion Pairing and Solvent Dynamics in Aqueous Lithium Halide Electrolytes",
+      "sent_date": "2026-08-04"
     }
   ]
 }
