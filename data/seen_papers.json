@@ -1059,6 +1059,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15006987/v1",
       "title": "Multicomponent Crystallization via Bottom-Up Coarse-Grained Modeling: CO2 Hydrate Formation",
       "sent_date": "2026-08-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007194/v1",
+      "title": "TurboChIMES: Multi-Layered Machine-Learned Interatomic Models for Enhanced Simulation Efficiency",
+      "sent_date": "2026-08-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007173/v1",
+      "title": "CHORUS: U(1)-Structured Hermitian Density Operators for Equivariant Interatomic Potentials",
+      "sent_date": "2026-08-10"
     }
   ]
 }
