@@ -1069,6 +1069,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15007173/v1",
       "title": "CHORUS: U(1)-Structured Hermitian Density Operators for Equivariant Interatomic Potentials",
       "sent_date": "2026-08-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007217/v1",
+      "title": "Data-efficient fine-tuning for reaction modelling in explicit solvent",
+      "sent_date": "2026-08-13"
+    },
+    {
+      "id": "arxiv:2608.11558v1",
+      "title": "Simulating Ionic Liquid Fragmentation in Electrospray Thrusters with Foundation Models",
+      "sent_date": "2026-08-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003518/v2",
+      "title": "Molecular Origins of CO2 Capture Behavior in Amine-Appended Nanoporous Frameworks",
+      "sent_date": "2026-08-13"
     }
   ]
 }
