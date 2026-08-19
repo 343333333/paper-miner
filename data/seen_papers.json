@@ -1104,6 +1104,26 @@
       "id": "arxiv:2608.13506v1",
       "title": "Equivariant learning of a transferable three-dimensional classical density functional",
       "sent_date": "2026-08-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001529/v2",
+      "title": "GRACE-OFF: A machine-learned interatomic potential for organic liquids using the GRACE architecture",
+      "sent_date": "2026-08-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007543/v1",
+      "title": "Free Energy Barriers for the Oxygen Evolution Reaction at the Explicitly Solvated IrO2 \u27e8110\u27e9 Interface via a Meta-GGA-Trained MLIP",
+      "sent_date": "2026-08-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007478/v1",
+      "title": "Conservation-Resolved Error Decomposition: A Benchmark Axis for Electronic-Structure Methods and Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-08-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007549/v1",
+      "title": "Optimization of active learning strategies for infrared spectra prediction in catalysis",
+      "sent_date": "2026-08-19"
     }
   ]
 }
