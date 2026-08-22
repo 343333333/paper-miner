@@ -1124,6 +1124,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15007549/v1",
       "title": "Optimization of active learning strategies for infrared spectra prediction in catalysis",
       "sent_date": "2026-08-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007718/v1",
+      "title": "Charge-State-Aware Machine-Learned Molecular Dynamics for Reactive Systems with Charge Transfer",
+      "sent_date": "2026-08-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001387/v2",
+      "title": "Local Symmetry Breaking and Correlated Fluctuations in Quantum Materials from Atomistic Foundation Models",
+      "sent_date": "2026-08-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007720/v1",
+      "title": "Benchmarking Machine Learning Methods for Predicting Adiabatic Redox Potentials",
+      "sent_date": "2026-08-22"
     }
   ]
 }
