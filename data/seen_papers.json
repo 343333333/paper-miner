@@ -1139,6 +1139,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15007720/v1",
       "title": "Benchmarking Machine Learning Methods for Predicting Adiabatic Redox Potentials",
       "sent_date": "2026-08-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007956/v1",
+      "title": "Carbon Nanotube-Induced Magnetic Shielding Effects on 129Xe NMR from Equivariant Neural Networks",
+      "sent_date": "2026-08-29"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007896/v1",
+      "title": "DeepField: Condensed-Phase Quantum Learning for All-Atom Protein Dynamics in Explicit Water",
+      "sent_date": "2026-08-29"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007895/v1",
+      "title": "Realistic Simulations of Energy Materials Using Foundation Models and Electrode-Potential Learning",
+      "sent_date": "2026-08-29"
     }
   ]
 }
