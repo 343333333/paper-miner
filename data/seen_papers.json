@@ -1154,6 +1154,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15007895/v1",
       "title": "Realistic Simulations of Energy Materials Using Foundation Models and Electrode-Potential Learning",
       "sent_date": "2026-08-29"
+    },
+    {
+      "id": "arxiv:2608.30523v1",
+      "title": "Chemically Resolved Topological Coordinates Link Structural Dynamics and Configurational Thermodynamics",
+      "sent_date": "2026-09-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008051/v1",
+      "title": "Counterpoise-Corrected Ab Initio Potential Energy Curves and Analytic Pair Potentials for Ag, Au, and Ni Interacting with He and Ar: A CCSD(T) Benchmark with Machine-Learning Comparison",
+      "sent_date": "2026-09-01"
     }
   ]
 }
