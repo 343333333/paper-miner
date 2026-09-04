@@ -1164,6 +1164,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15008051/v1",
       "title": "Counterpoise-Corrected Ab Initio Potential Energy Curves and Analytic Pair Potentials for Ag, Au, and Ni Interacting with He and Ar: A CCSD(T) Benchmark with Machine-Learning Comparison",
       "sent_date": "2026-09-01"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008248/v1",
+      "title": "Finite-temperature dynamic stability separates foundation machine-learning interatomic potentials that harmonic benchmarks rank equally",
+      "sent_date": "2026-09-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008201/v1",
+      "title": "Unveiling Phase Transformation Mechanism in BN from Large-Scale Machine Learning Molecular Dynamics",
+      "sent_date": "2026-09-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008167/v1",
+      "title": "Machine-Learned Short-Range Repulsive Hamiltonians for Electrostatic QM/MM Embedding",
+      "sent_date": "2026-09-04"
     }
   ]
 }
