@@ -1179,6 +1179,11 @@
       "id": "chemrxiv:10.26434/chemrxiv.15008167/v1",
       "title": "Machine-Learned Short-Range Repulsive Hamiltonians for Electrostatic QM/MM Embedding",
       "sent_date": "2026-09-04"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008290/v1",
+      "title": "GPU-Accelerated Large-Scale Nonadiabatic Excited State Molecular Dynamics",
+      "sent_date": "2026-09-07"
     }
   ]
 }
