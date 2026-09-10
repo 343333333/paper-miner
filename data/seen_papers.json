@@ -1184,6 +1184,36 @@
       "id": "chemrxiv:10.26434/chemrxiv.15008290/v1",
       "title": "GPU-Accelerated Large-Scale Nonadiabatic Excited State Molecular Dynamics",
       "sent_date": "2026-09-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008538/v1",
+      "title": "Chemical Accuracy for Carbapenem Breakdown by Class A beta-Lactamases Using a Transferable Embedded Machine-Learned Potential",
+      "sent_date": "2026-09-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008482/v1",
+      "title": "Explainable ML force-field for evaluating protein\u2013ligand binding energy using SO3LR",
+      "sent_date": "2026-09-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008542/v1",
+      "title": "Entropy-Guided Dataset Reduction for Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-09-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008554/v1",
+      "title": "Non-bridging oxygen as the master variable linking structure to the elastic, electronic, and photonic properties of heavy, polarizable cesium silicate glasses",
+      "sent_date": "2026-09-10"
+    },
+    {
+      "id": "arxiv:2609.08329v1",
+      "title": "Band Structure Modulation of ZrO2 Nanoparticles for Control of CO Adsorption Properties: A Combined Density Functional Theory - Density Functional Tight Binding Study",
+      "sent_date": "2026-09-10"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv-2025-l9gnz/v4",
+      "title": "Machine learning-accelerated evolutionary Monte Carlo for rapid phase exploration of compositionally complex materials in reactive environments",
+      "sent_date": "2026-09-10"
     }
   ]
 }
