@@ -1214,6 +1214,16 @@
       "id": "chemrxiv:10.26434/chemrxiv-2025-l9gnz/v4",
       "title": "Machine learning-accelerated evolutionary Monte Carlo for rapid phase exploration of compositionally complex materials in reactive environments",
       "sent_date": "2026-09-10"
+    },
+    {
+      "id": "arxiv:2609.15299v1",
+      "title": "Benchmarking Machine-Learning Interatomic Potentials for Dynamical Stability in Inorganic Semiconductor Nanocrystals: A CdSe Case Study",
+      "sent_date": "2026-09-16"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008789/v1",
+      "title": "Domain-Informed AI Multimodal Foundation Model for Materials Science",
+      "sent_date": "2026-09-16"
     }
   ]
 }
