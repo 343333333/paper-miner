@@ -1224,6 +1224,46 @@
       "id": "chemrxiv:10.26434/chemrxiv.15008789/v1",
       "title": "Domain-Informed AI Multimodal Foundation Model for Materials Science",
       "sent_date": "2026-09-16"
+    },
+    {
+      "id": "arxiv:2609.20510v1",
+      "title": "Truncated automatic sparse differentiation for machine learning interatomic potentials",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008896/v1",
+      "title": "Single-Ion Hydration Through the Lens of Data-Driven Many-Body Potentials",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009072/v1",
+      "title": "Accurate modeling of ion-protein binding in solution: molecular mechanics force field innovation and validation on Mg2+",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008932/v1",
+      "title": "From 4D to 2D: Efficient computation of the electron correlation energies of atoms in molecular systems",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "arxiv:2609.19469v1",
+      "title": "DFT GGA based datasets for H$_2$O potential energy surfaces, permanent moment and polarizability tensors",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008944/v1",
+      "title": "Explicit and Parallelised Octupole and Hexadecapole Moment Interactions in Flexible Smooth Particle Mesh Ewald",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15005749/v2",
+      "title": "Temperature-and pressure-dependent water stabilization of CO dimerization on Cu(100)",
+      "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008967/v1",
+      "title": "Bottom-up design of the operating window for direct urea synthesis from first-principles molecular thermodynamics",
+      "sent_date": "2026-09-19"
     }
   ]
 }
