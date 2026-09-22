@@ -1264,6 +1264,66 @@
       "id": "chemrxiv:10.26434/chemrxiv.15008967/v1",
       "title": "Bottom-up design of the operating window for direct urea synthesis from first-principles molecular thermodynamics",
       "sent_date": "2026-09-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009227/v1",
+      "title": "Boundary-driven phase transformation in layered 3R In2Se3 captured by long range machine learning molecular dynamics",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004404/v2",
+      "title": "Atomic Environment Aware Lennard-Jones Parameterization for Electrostatic Embedding ML/MM Simulations",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009104/v1",
+      "title": "Water Layering and Orientation Modulate Lanthanide Hydration in Carbon Nanotubes",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15003610/v2",
+      "title": "MPID Polarizable Force Field: GPU Implementation and Biomolecular Simulations",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009166/v1",
+      "title": "Transferable Graph Neural Network Surrogates for Molecular Dynamics Across Crystal Symmetries",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008642/v2",
+      "title": "Making Analytic Double-Hybrid DFT Gradients Practical: A High-Performance Multi-GPU RI Implementation",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009206/v1",
+      "title": "QM_eMMa: An Open GPU-Accelerated Framework for Ab Initio QM/MM Molecular Dynamics and Enhanced Sampling",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009119/v1",
+      "title": "Tokenising quantum data for label-efficient training of molecular models",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008810/v2",
+      "title": "Machine-learning force-field scoring rivals free-energy perturbation for congeneric ligand ranking across public benchmarks",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "arxiv:2609.24606v1",
+      "title": "Benchmarking higher-ranking multipoles and polarizability tensors for small molecular systems",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009236/v1",
+      "title": "Design of High-Ionic-Conductivity Doped Li2ZrO3 Cathode Coating with Machine Learning Interatomic Potentials",
+      "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15004635/v2",
+      "title": "An open implementation of MSEVB for reactive force field simulation with simple energy-based coupling",
+      "sent_date": "2026-09-22"
     }
   ]
 }
