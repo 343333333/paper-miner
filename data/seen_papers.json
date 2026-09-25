@@ -1324,6 +1324,56 @@
       "id": "chemrxiv:10.26434/chemrxiv.15004635/v2",
       "title": "An open implementation of MSEVB for reactive force field simulation with simple energy-based coupling",
       "sent_date": "2026-09-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009333/v1",
+      "title": "Data-Efficient Machine Learning Potentials for Organic Reactions through Active-Learning-Guided Fine-Tuning",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15001250/v2",
+      "title": "Triplet Pruning and Spatial Decomposition in M3GNet: Accuracy and Memory Trade-offs in Scaling Graph Neural Network Potentials",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15007359/v2",
+      "title": "Machine learning-enabled prediction of dynamic vertical triplet energies underscores the role of vibrational anharmonicity in energy transfer",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "arxiv:2609.28013v1",
+      "title": "SoLiD26: A First Principles Solid-Liquid Interface Dataset for Machine-learned Interatomic Potentials",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15008810/v3",
+      "title": "Machine-learning force-field scoring rivals free-energy perturbation for congeneric ligand ranking across public benchmarks",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009368/v1",
+      "title": "Predicting the Thermodynamic Stability of Ce/Ti Nanoclusters under Synthetic Conditions",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009405/v1",
+      "title": "Resolving Active Sites in Cu/ZnO Methanol Synthesis via Coupled Modelling of Surface Reconstruction and Coverage-dependent Kinetics",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009322/v1",
+      "title": "Machine Learned Interatomic Forces as Inference-Time Physical Guidance for All-Atom Diffusion Peptide Design",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15006364/v2",
+      "title": "Fully Atomistic Vibrational Free Energy of Molecular Crystals Using Distributed Multipole Moments",
+      "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009363/v1",
+      "title": "Chiral Patterning Drives Peptide Coacervate Formation in Coarse-Grained SIRAH Simulations",
+      "sent_date": "2026-09-25"
     }
   ]
 }
