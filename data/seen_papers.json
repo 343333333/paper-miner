@@ -1374,6 +1374,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15009363/v1",
       "title": "Chiral Patterning Drives Peptide Coacervate Formation in Coarse-Grained SIRAH Simulations",
       "sent_date": "2026-09-25"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15009467/v1",
+      "title": "Bridging the Training\u2013Application Gap in Kohn\u2013Sham Hamiltonian Learning through Dual-Space Supervision",
+      "sent_date": "2026-09-28"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15002879/v2",
+      "title": "Influence of exchange\u2013correlation functional on machine-learnt interatomic potentials accuracy: a systematic study in borosilicate glasses",
+      "sent_date": "2026-09-28"
     }
   ]
 }
