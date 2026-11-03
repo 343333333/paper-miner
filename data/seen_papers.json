@@ -1384,6 +1384,21 @@
       "id": "chemrxiv:10.26434/chemrxiv.15002879/v2",
       "title": "Influence of exchange\u2013correlation functional on machine-learnt interatomic potentials accuracy: a systematic study in borosilicate glasses",
       "sent_date": "2026-09-28"
+    },
+    {
+      "id": "arxiv:2611.03499v1",
+      "title": "Shadow Molecular Dynamics for General Nonlinear Flexible-Charge Models",
+      "sent_date": "2026-11-03"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011478/v1",
+      "title": "Radial Kernel Attention for Long-Range Modeling in Polymer Machine Learning Force Fields",
+      "sent_date": "2026-11-03"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011517/v1",
+      "title": "Incorporating Polarization into ML/MM Endpoint Calculations for Protein\u2013Ligand Affinity Ranking",
+      "sent_date": "2026-11-03"
     }
   ]
 }
