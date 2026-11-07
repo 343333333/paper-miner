@@ -1399,6 +1399,41 @@
       "id": "chemrxiv:10.26434/chemrxiv.15011517/v1",
       "title": "Incorporating Polarization into ML/MM Endpoint Calculations for Protein\u2013Ligand Affinity Ranking",
       "sent_date": "2026-11-03"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011781/v1",
+      "title": "Toward Chemical Accuracy in Biomolecular Simulations through Data-Driven Many-Body Potentials: III. A Library of Amino Acid Building Blocks",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011712/v1",
+      "title": "The Thiolate Shell as a Dynamic Gold Reservoir: Size-Dependent Thermal Restructuring of Gold Nanoclusters from MACE-Based Machine-Learning Molecular Dynamics",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011663/v1",
+      "title": "Achieving Accurate Prediction of Water Adsorption in Mildly Hydrophobic MOFs",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011762/v1",
+      "title": "POLEN: An OpenMM Framework for ML/MM Simulations with Mutually Polarizable AMOEBA Embedding",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011777/v1",
+      "title": "Applicability Domain of Universal Machine Learning Interatomic Potentials at Solid-State Battery Interfaces",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011775/v1",
+      "title": "Accurate and Rapid Vibrational Spectra of Molecular Crystals from Machine-Learned Interatomic Potentials",
+      "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011695/v1",
+      "title": "Computational Modeling of Electrolytes and the Solid\u2013Electrolyte Interphase (SEI) in Li-Ion Batteries: A 30-Year Odyssey from DFT/MD/MC to AI\u2013A Comprehensive Review",
+      "sent_date": "2026-11-07"
     }
   ]
 }
