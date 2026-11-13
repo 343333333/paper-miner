@@ -1434,6 +1434,51 @@
       "id": "chemrxiv:10.26434/chemrxiv.15011695/v1",
       "title": "Computational Modeling of Electrolytes and the Solid\u2013Electrolyte Interphase (SEI) in Li-Ion Batteries: A 30-Year Odyssey from DFT/MD/MC to AI\u2013A Comprehensive Review",
       "sent_date": "2026-11-07"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012033/v1",
+      "title": "Automated Construction of Data-Efficient Machine-Learned Force Fields for Polymers",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012048/v1",
+      "title": "Multistate Potential Energy Surfaces from an Equivariant Core-Hamiltonian Correction to Semiempirical Configuration Interaction",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011976/v1",
+      "title": "Hessian- and Property-Aware Learning of Analytic Bond-Order Potentials",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011999/v1",
+      "title": "Accelerating Quantum Chemistry with Emulated Double-Precision Matrix Multiplication on GPUs",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011904/v1",
+      "title": "GPU-accelerated analytic Hartree\u2013Fock gradients",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "arxiv:2611.16528v1",
+      "title": "Edge-scaling softening of a universal machine-learned potential: point-defect formation energies in a coronene graphene quantum dot",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012021/v1",
+      "title": "Automated Mapping and Parameterization of Coarse-Grained Force Fields for Dissipative Particle Dynamics",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011980/v1",
+      "title": "Accelerating High-Pressure Simulations: Open-Source Implementation of the GOSTSHYP Model on GPUs",
+      "sent_date": "2026-11-13"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15011901/v1",
+      "title": "Assessment of machine-learned vs. classical/quantum atomistic simulations for predicting palladium-hydrogen materials",
+      "sent_date": "2026-11-13"
     }
   ]
 }
