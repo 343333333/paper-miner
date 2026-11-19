@@ -1479,6 +1479,51 @@
       "id": "chemrxiv:10.26434/chemrxiv.15011901/v1",
       "title": "Assessment of machine-learned vs. classical/quantum atomistic simulations for predicting palladium-hydrogen materials",
       "sent_date": "2026-11-13"
+    },
+    {
+      "id": "arxiv:2611.24744v1",
+      "title": "GenerativeQC: A Generative, GPU-Accelerated Quantum Chemistry Program",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012394/v1",
+      "title": "ABC-flash: Fast and Scalable D3 Three-Body Dispersion for Large Molecular and Periodic Systems",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012444/v1",
+      "title": "Accelerating Adsorption-Site Screening on Forsterite with Foundation Potentials",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012417/v1",
+      "title": "Understanding a Helix Reverse Path in Perfluoroalkanes from a Neural Network Potential",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "arxiv:2611.22272v1",
+      "title": "Neural Network Path Optimization for Finding Transition States on a Machine Learned Potential",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "arxiv:2611.24148v1",
+      "title": "Machine learning interatomic potentials and orientational defects in polymers",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012331/v1",
+      "title": "Thermodynamic Model of Mixing and Photo-Demixing in MAPb(I,Br)3 from Machine-Learning Molecular Dynamics",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012314/v1",
+      "title": "GPU-Accelerated Evaluation of MP2 Correlation Energy Densities for Machine Learning of Density Functionals",
+      "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012402/v1",
+      "title": "High-Throughput Workflow for Polaron-Resolved Modeling of Reduced Ceria",
+      "sent_date": "2026-11-19"
     }
   ]
 }
