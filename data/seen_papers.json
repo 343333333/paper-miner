@@ -1524,6 +1524,16 @@
       "id": "chemrxiv:10.26434/chemrxiv.15012402/v1",
       "title": "High-Throughput Workflow for Polaron-Resolved Modeling of Reduced Ceria",
       "sent_date": "2026-11-19"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012472/v1",
+      "title": "Self-Consistent Induced Dipoles for MACE-POLAR in Molecular Embedding and Classical Dynamics",
+      "sent_date": "2026-11-22"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012483/v1",
+      "title": "ICPoly: An Automated Molecular Dynamics Workflow for Characterizing Structure, Dynamics, and Transport in Polymer Ion-Exchange Membranes",
+      "sent_date": "2026-11-22"
     }
   ]
 }
