@@ -1534,6 +1534,31 @@
       "id": "chemrxiv:10.26434/chemrxiv.15012483/v1",
       "title": "ICPoly: An Automated Molecular Dynamics Workflow for Characterizing Structure, Dynamics, and Transport in Polymer Ion-Exchange Membranes",
       "sent_date": "2026-11-22"
+    },
+    {
+      "id": "arxiv:2611.30229v1",
+      "title": "Accelerating interatomic potential development through student-driven exploration and reliability-aware distillation",
+      "sent_date": "2026-11-26"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012608/v1",
+      "title": "Building a grain-boundary machine-learning force field by reactive sampling and data curation, and its application to large-scale grain-boundary transport in Li6PS5X (X =Cl, Br)",
+      "sent_date": "2026-11-26"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012005/v2",
+      "title": "Neighbor-Graph Truncation and Density Shift in Equivariant Direct-Hessian Potentials: Diagnosis, Controls, and Mitigation",
+      "sent_date": "2026-11-26"
+    },
+    {
+      "id": "arxiv:2611.32739v1",
+      "title": "Neutron Spectroscopy Transformed: Deuterated ZIF-8 and Machine-Learned Potentials Catch Nitrogen Threading Its Gates",
+      "sent_date": "2026-11-26"
+    },
+    {
+      "id": "chemrxiv:10.26434/chemrxiv.15012599/v1",
+      "title": "Spherical Resolution for Fast and Rigorously Bounded Mixed-Precision Coulomb Integrals on GPUs",
+      "sent_date": "2026-11-26"
     }
   ]
 }
